@@ -1,0 +1,24 @@
+name: Databricks CI/CD
+
+# Trigger the workflow whenever we push to the 'main' branch.
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  run-notebook-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Set up Databricks CLI
+        # This action sets up the 'databricks' command-line client using secrets
+        uses: databricks/cli-actions/setup-databricks@v1
+        with:
+          host: ${{ secrets.DATABRICKS_HOST }}
+          token: ${{ secrets.DATABRICKS_TOKEN }}
+
+      - name: Run a Databricks job
+        # Replace <YOUR_JOB_ID> with the numeric ID of a job in Databricks
+        run: databricks jobs run-now --job-id <YOUR_JOB_ID>
