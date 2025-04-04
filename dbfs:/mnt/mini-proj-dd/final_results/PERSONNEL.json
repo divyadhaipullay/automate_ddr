@@ -1,0 +1,39 @@
+{
+    "PERSONNEL": [
+        {
+            "Company": "WORKRISE",
+            "Contractor": "Service Company",
+            "No. Personnel": 2,
+            "Daily Hours": 24,
+            "Cumulative Hours": 2777
+        },
+        {
+            "Company": "Cyclone Drilling Days Crews",
+            "Contractor": "Service Company",
+            "No. Personnel": 7,
+            "Daily Hours": 84,
+            "Cumulative Hours": 2777
+        },
+        {
+            "Company": "Cyclone Drilling Night Crews",
+            "Contractor": "Service Company",
+            "No. Personnel": 7,
+            "Daily Hours": 84,
+            "Cumulative Hours": 2777
+        },
+        {
+            "Company": "DCT",
+            "Contractor": "Service Company",
+            "No. Personnel": 2,
+            "Daily Hours": 24,
+            "Cumulative Hours": 2777
+        },
+        {
+            "Company": "",
+            "Contractor": "",
+            "No. Personnel": "Totals",
+            "Daily Hours": 347,
+            "Cumulative Hours": "3069.0"
+        }
+    ]
+}

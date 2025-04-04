@@ -1,3 +1,3 @@
 Bit #,Size,Make,Model,Serial #,Nozzle-(Number x Size),Nozzle-TFA,Depth-In,Depth-Out,Depth-Feet,Depth-ROP,Hours-Total,Hours-On Btm,Dull Grade-I,Dull Grade-O1,Dull Grade-D,Dull Grade-L,Dull Grade-B,Dull Grade-G,Dull Grade-O2,Dull Grade-RP
-A 6750 BAKER DD404TWS,5355166 6X12 066,9873 20537 10664,12965 8225 6475 | |,f | | f | | f f | |,,,,,,,,,,,,,,,,
-3 9875 REED TK56H1,A308739 7X12 077,2283 9873 7590,23354 3250 2360 2,3 BT N x an WT TD,,,,,,,,,,,,,,,,
+4,6.750,BAKER,DD40+TWS,5355166,6X12,0.66,9873,20537,10664,129.65,82.25,64.75,[BLANK],[BLANK],[BLANK],[BLANK],[BLANK],[BLANK],[BLANK],[BLANK]
+3,9.875,REED,TKS56-H1,A308739,7X12,0.77,2283,9873,7590,233.54,32.50,23.60,2,3,BT,N,xX,[BLANK],WT,TD
