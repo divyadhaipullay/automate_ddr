@@ -1,0 +1,1373 @@
+2025-04-09 03:46:50,065 INFO     Starting main pipeline execution for Pumps and BOP.
+2025-04-09 03:46:50,088 INFO     Processing PUMPS section...
+2025-04-09 03:46:50,089 INFO     Processing Pumps section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 03:46:50,090 ERROR    Error processing PUMPS section: type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1604/command-4875013432569176-689650215", line 271, in main
+    pumps_json, pumps_df = PumpsPipeline.process(image_paths["PUMPS"], debug=debug)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1604/command-4875013432569176-689650215", line 230, in process
+    pil_img = ImageUtils.safe_read_image_pil(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image_cv2'?
+2025-04-09 03:46:50,091 INFO     Processing BOP section...
+2025-04-09 03:46:50,092 INFO     Processing BOP section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:46:50,092 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:46:50,121 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 03:47:18,862 WARNING  Pattern for 'Last BOP Test Date' not matched in OCR text.
+2025-04-09 03:47:18,863 WARNING  Pattern for 'Last BOP Drill' not matched in OCR text.
+2025-04-09 03:47:18,864 WARNING  Pattern for 'Next BOP Test' not matched in OCR text.
+2025-04-09 03:47:18,865 INFO     BOP processing complete.
+2025-04-09 03:47:18,913 INFO     BOP results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json
+2025-04-09 03:47:18,956 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv
+2025-04-09 03:47:20,736 INFO     Starting main pipeline execution for Pumps and BOP.
+2025-04-09 03:47:20,746 INFO     Processing PUMPS section...
+2025-04-09 03:47:20,747 INFO     Processing Pumps section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 03:47:20,748 ERROR    Error processing PUMPS section: type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1604/command-4875013432569177-689650215", line 271, in main
+    pumps_json, pumps_df = PumpsPipeline.process(image_paths["PUMPS"], debug=debug)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1604/command-4875013432569177-689650215", line 230, in process
+    pil_img = ImageUtils.safe_read_image_pil(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image_cv2'?
+2025-04-09 03:47:20,749 INFO     Processing BOP section...
+2025-04-09 03:47:20,749 INFO     Processing BOP section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:47:20,750 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:47:20,777 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 03:47:31,680 WARNING  Pattern for 'Last BOP Test Date' not matched in OCR text.
+2025-04-09 03:47:31,681 WARNING  Pattern for 'Last BOP Drill' not matched in OCR text.
+2025-04-09 03:47:31,682 WARNING  Pattern for 'Next BOP Test' not matched in OCR text.
+2025-04-09 03:47:31,683 INFO     BOP processing complete.
+2025-04-09 03:47:31,726 INFO     BOP results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json
+2025-04-09 03:47:31,763 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv
+2025-04-09 03:48:23,227 INFO     Starting main pipeline execution for Pumps and BOP.
+2025-04-09 03:48:23,240 INFO     Processing PUMPS section...
+2025-04-09 03:48:23,240 INFO     Processing Pumps section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 03:48:23,241 ERROR    Error processing PUMPS section: type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1604/command-4875013432569177-689650215", line 271, in main
+    pumps_json, pumps_df = PumpsPipeline.process(image_paths["PUMPS"], debug=debug)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1604/command-4875013432569177-689650215", line 230, in process
+    pil_img = ImageUtils.safe_read_image_pil(image_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image_cv2'?
+2025-04-09 03:48:23,243 INFO     Processing BOP section...
+2025-04-09 03:48:23,243 INFO     Processing BOP section from: dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:48:23,244 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:48:23,273 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 03:48:33,894 WARNING  Pattern for 'Last BOP Test Date' not matched in OCR text.
+2025-04-09 03:48:33,895 WARNING  Pattern for 'Last BOP Drill' not matched in OCR text.
+2025-04-09 03:48:33,896 WARNING  Pattern for 'Next BOP Test' not matched in OCR text.
+2025-04-09 03:48:33,897 INFO     BOP processing complete.
+2025-04-09 03:48:33,937 INFO     BOP results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json
+2025-04-09 03:48:33,975 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv
+2025-04-09 03:49:43,025 INFO     Main pipeline execution started for Pumps and BOP.
+2025-04-09 03:49:43,036 INFO     Main: Processing Pumps section...
+2025-04-09 03:49:43,037 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 03:49:43,038 INFO     Loading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 03:49:43,056 INFO     Image loaded (PIL) with size: (2502, 276)
+2025-04-09 03:49:54,932 WARNING  PumpsPipeline: No pump rows were extracted from OCR text.
+2025-04-09 03:49:54,933 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Drilling/Circ Rate
+2025-04-09 03:49:54,934 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Drilling/Circ Rate 1
+2025-04-09 03:49:54,935 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Driling/Circ Rate 2
+2025-04-09 03:49:54,936 INFO     PumpsPipeline: Finished processing Pumps section.
+2025-04-09 03:49:54,976 INFO     Main: Pumps results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json
+2025-04-09 03:49:54,978 INFO     Main: Processing BOP section...
+2025-04-09 03:49:54,978 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 03:49:54,979 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:49:55,006 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 03:49:55,481 WARNING  BOPPipeline: Pattern for 'Last BOP Test Date' not matched in OCR text.
+2025-04-09 03:49:55,482 WARNING  BOPPipeline: Pattern for 'Last BOP Drill' not matched in OCR text.
+2025-04-09 03:49:55,483 WARNING  BOPPipeline: Pattern for 'Next BOP Test' not matched in OCR text.
+2025-04-09 03:49:55,484 INFO     BOPPipeline: Finished processing with results: {'Last BOP Test Date': '', 'Last BOP Drill': '', 'Next BOP Test': ''}
+2025-04-09 03:49:55,518 INFO     Main: BOP results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json
+2025-04-09 03:49:55,553 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv
+2025-04-09 03:59:25,732 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 03:59:25,756 INFO     Main: Processing section 'PUMPS'
+2025-04-09 03:59:25,757 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 03:59:25,758 INFO     Loading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 03:59:25,779 INFO     Image (PIL) loaded with size: (2502, 276)
+2025-04-09 03:59:37,626 WARNING  PumpsPipeline: No pump rows extracted.
+2025-04-09 03:59:37,627 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 03:59:37,628 INFO     PumpsPipeline: Processing complete.
+2025-04-09 03:59:37,630 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 03:59:37,670 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 03:59:37,671 INFO     Main: Processing section 'BOP'
+2025-04-09 03:59:37,672 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 03:59:37,673 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 03:59:37,700 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 03:59:38,231 WARNING  BOPPipeline: Pattern for 'Last BOP Test Date' not matched.
+2025-04-09 03:59:38,232 WARNING  BOPPipeline: Pattern for 'Last BOP Drill' not matched.
+2025-04-09 03:59:38,232 WARNING  BOPPipeline: Pattern for 'Next BOP Test' not matched.
+2025-04-09 03:59:38,234 INFO     BOPPipeline: Processing complete.
+2025-04-09 03:59:38,235 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "",
+        "Last BOP Drill": "",
+        "Next BOP Test": ""
+    }
+}
+2025-04-09 03:59:38,277 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 03:59:38,313 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 04:03:01,486 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 04:03:01,510 INFO     Main: Processing section 'PUMPS'
+2025-04-09 04:03:01,511 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 04:03:01,512 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 04:03:01,534 ERROR    Main: Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 04:03:01,538 INFO     Main: Processing section 'BOP'
+2025-04-09 04:03:01,539 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 04:03:01,540 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 04:03:13,016 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 04:03:13,017 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 04:03:13,018 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 04:03:13,019 INFO     BOPPipeline: Processing complete.
+2025-04-09 04:03:13,020 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 04:03:13,060 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 04:03:13,095 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 04:04:59,691 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 04:04:59,715 INFO     Main: Processing section 'BOP'
+2025-04-09 04:04:59,716 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 04:04:59,717 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 04:05:10,610 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 04:05:10,611 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 04:05:10,612 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 04:05:10,613 INFO     BOPPipeline: Processing complete.
+2025-04-09 04:05:10,614 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 04:05:10,658 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 04:05:10,694 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 04:05:49,970 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 04:05:49,982 INFO     Main: Processing section 'PUMPS'
+2025-04-09 04:05:49,983 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 04:05:49,983 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 04:06:00,747 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 04:06:00,748 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 04:06:00,749 INFO     PumpsPipeline: Processing complete.
+2025-04-09 04:06:00,750 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 04:06:00,790 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 04:06:00,791 INFO     Main: Processing section 'BOP'
+2025-04-09 04:06:00,792 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 04:06:00,793 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 04:06:01,208 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 04:06:01,209 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 04:06:01,210 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 04:06:01,212 INFO     BOPPipeline: Processing complete.
+2025-04-09 04:06:01,213 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 04:06:01,249 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 04:06:01,282 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 04:10:36,242 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 04:10:36,266 INFO     Main: Processing section 'PUMPS'
+2025-04-09 04:10:36,267 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 04:10:36,268 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 04:10:48,212 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 04:10:48,213 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 04:10:48,215 INFO     PumpsPipeline: Processing complete.
+2025-04-09 04:10:48,216 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 04:10:48,261 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 04:10:48,262 INFO     Main: Processing section 'BOP'
+2025-04-09 04:10:48,263 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 04:10:48,263 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 04:10:48,839 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 04:10:48,840 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 04:10:48,840 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 04:10:48,842 INFO     BOPPipeline: Processing complete.
+2025-04-09 04:10:48,843 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 04:10:48,890 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 04:10:48,928 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 04:12:59,768 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 04:12:59,800 INFO     Main: Processing section 'PUMPS'
+2025-04-09 04:12:59,801 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 04:12:59,802 INFO     Attempting to read image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 04:13:11,820 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 04:13:11,821 WARNING  PumpsPipeline: No match for drilling/circ rate in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 04:13:11,822 INFO     PumpsPipeline: Processing complete.
+2025-04-09 04:13:11,823 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 04:13:11,862 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 04:13:11,863 INFO     Main: Processing section 'BOP'
+2025-04-09 04:13:11,864 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 04:13:11,865 INFO     Attempting to read image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 04:13:12,411 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 04:13:12,412 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 04:13:12,413 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 04:13:12,414 INFO     BOPPipeline: Processing complete.
+2025-04-09 04:13:12,415 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 04:13:12,449 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 04:13:12,482 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:29:21,166 INFO     Main pipeline execution started for Pumps and BOP.
+2025-04-09 19:29:21,168 INFO     Main: Processing Pumps section...
+2025-04-09 19:29:21,169 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:21,169 INFO     Loading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:21,197 INFO     Image loaded (PIL) with size: (2502, 276)
+2025-04-09 19:29:22,413 WARNING  PumpsPipeline: No pump rows were extracted from OCR text.
+2025-04-09 19:29:22,417 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Drilling/Circ Rate
+2025-04-09 19:29:22,418 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Drilling/Circ Rate 1
+2025-04-09 19:29:22,419 WARNING  PumpsPipeline: Drilling/Circ rate pattern not matched in segment:
+Driling/Circ Rate 2
+2025-04-09 19:29:22,421 INFO     PumpsPipeline: Finished processing Pumps section.
+2025-04-09 19:29:22,468 INFO     Main: Pumps results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json
+2025-04-09 19:29:22,469 INFO     Main: Processing BOP section...
+2025-04-09 19:29:22,470 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:22,470 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:22,498 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 19:29:22,924 WARNING  BOPPipeline: Pattern for 'Last BOP Test Date' not matched in OCR text.
+2025-04-09 19:29:22,925 WARNING  BOPPipeline: Pattern for 'Last BOP Drill' not matched in OCR text.
+2025-04-09 19:29:22,926 WARNING  BOPPipeline: Pattern for 'Next BOP Test' not matched in OCR text.
+2025-04-09 19:29:22,927 INFO     BOPPipeline: Finished processing with results: {'Last BOP Test Date': '', 'Last BOP Drill': '', 'Next BOP Test': ''}
+2025-04-09 19:29:22,963 INFO     Main: BOP results saved to CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv and JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json
+2025-04-09 19:29:23,001 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv
+2025-04-09 19:29:23,834 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:29:23,844 INFO     Main: Processing section 'PUMPS'
+2025-04-09 19:29:23,846 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:23,847 INFO     Loading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:23,884 INFO     Image (PIL) loaded with size: (2502, 276)
+2025-04-09 19:29:27,034 WARNING  PumpsPipeline: No pump rows extracted.
+2025-04-09 19:29:27,035 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 19:29:27,038 INFO     PumpsPipeline: Processing complete.
+2025-04-09 19:29:27,041 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 19:29:27,081 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 19:29:27,082 INFO     Main: Processing section 'BOP'
+2025-04-09 19:29:27,083 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:27,084 INFO     Loading image (CV2) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:27,111 INFO     Image loaded with dimensions: (71, 2502, 3)
+2025-04-09 19:29:27,521 WARNING  BOPPipeline: Pattern for 'Last BOP Test Date' not matched.
+2025-04-09 19:29:27,522 WARNING  BOPPipeline: Pattern for 'Last BOP Drill' not matched.
+2025-04-09 19:29:27,523 WARNING  BOPPipeline: Pattern for 'Next BOP Test' not matched.
+2025-04-09 19:29:27,524 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:29:27,525 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "",
+        "Last BOP Drill": "",
+        "Next BOP Test": ""
+    }
+}
+2025-04-09 19:29:27,561 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:29:27,593 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:29:28,524 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:29:28,545 INFO     Main: Processing section 'PUMPS'
+2025-04-09 19:29:28,546 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:28,547 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:28,565 ERROR    Main: Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 19:29:28,569 INFO     Main: Processing section 'BOP'
+2025-04-09 19:29:28,570 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:28,571 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:29,155 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:29:29,156 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:29:29,156 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:29:29,158 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:29:29,158 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:29:29,198 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:29:29,233 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:29:30,023 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:29:30,033 INFO     Main: Processing section 'PUMPS'
+2025-04-09 19:29:30,034 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:30,034 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:32,728 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 19:29:32,729 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 19:29:32,731 INFO     PumpsPipeline: Processing complete.
+2025-04-09 19:29:32,732 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 19:29:32,780 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 19:29:32,781 INFO     Main: Processing section 'BOP'
+2025-04-09 19:29:32,782 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:32,783 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:33,407 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:29:33,407 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:29:33,408 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:29:33,410 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:29:33,411 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:29:33,453 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:29:33,487 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:29:33,925 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:29:33,934 INFO     Main: Processing section 'PUMPS'
+2025-04-09 19:29:33,935 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:33,936 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:34,987 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 19:29:34,989 WARNING  PumpsPipeline: No match for drilling/circ rates in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 19:29:34,990 INFO     PumpsPipeline: Processing complete.
+2025-04-09 19:29:34,994 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 19:29:35,035 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 19:29:35,035 INFO     Main: Processing section 'BOP'
+2025-04-09 19:29:35,036 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:35,037 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:35,482 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:29:35,483 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:29:35,484 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:29:35,485 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:29:35,487 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:29:35,523 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:29:35,556 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:29:35,928 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:29:35,931 INFO     Main: Processing section 'PUMPS'
+2025-04-09 19:29:35,932 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'
+2025-04-09 19:29:35,933 INFO     Attempting to read image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 19:29:37,484 WARNING  PumpsPipeline: No pump rows extracted from OCR text.
+2025-04-09 19:29:37,485 WARNING  PumpsPipeline: No match for drilling/circ rate in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 19:29:37,491 INFO     PumpsPipeline: Processing complete.
+2025-04-09 19:29:37,492 INFO     Main: PUMPS output:
+{
+    "Pumps": [],
+    "DrillingCircRates": []
+}
+2025-04-09 19:29:37,534 INFO     PUMPS output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/pumps.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/pumps.csv
+2025-04-09 19:29:37,535 INFO     Main: Processing section 'BOP'
+2025-04-09 19:29:37,535 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:29:37,536 INFO     Attempting to read image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:29:39,281 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:29:39,282 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:29:39,283 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:29:39,284 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:29:39,286 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:29:39,345 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:29:39,405 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:47:53,745 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:47:53,772 INFO     Main: Processing section 'BOP'
+2025-04-09 19:47:53,772 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:47:53,773 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:47:54,925 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:47:54,926 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:47:54,927 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:47:54,928 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:47:54,929 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:47:54,994 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:47:55,060 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:50:11,303 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:50:11,328 INFO     Main: Processing section 'BOP'
+2025-04-09 19:50:11,329 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:50:11,331 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:50:39,964 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:50:39,965 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:50:39,966 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:50:39,968 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:50:39,969 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:50:40,017 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:50:40,055 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:56:10,128 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:56:10,418 INFO     Main: Processing section 'BOP'
+2025-04-09 19:56:10,420 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:56:10,421 ERROR    Main: Error processing section 'BOP': name 'safe_read_image' is not defined
+2025-04-09 19:56:10,500 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:57:14,539 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:57:14,542 INFO     Main: Processing section 'BOP'
+2025-04-09 19:57:14,550 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:57:14,551 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:57:15,727 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 19:57:15,728 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 19:57:15,729 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 19:57:15,730 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:57:15,731 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 19:57:15,774 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:57:15,807 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 19:57:19,781 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 19:57:19,791 INFO     Main: Processing section 'BOP'
+2025-04-09 19:57:19,791 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 19:57:19,792 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 19:57:31,514 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 19:57:31,515 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 19:57:31,516 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 19:57:31,517 INFO     BOPPipeline: Processing complete.
+2025-04-09 19:57:31,518 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "",
+        "Last BOP Drill": "",
+        "Next BOP Test": ""
+    }
+}
+2025-04-09 19:57:31,561 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 19:57:31,598 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:03:51,501 INFO     Starting main pipeline execution...
+2025-04-09 20:03:51,544 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:03:51,546 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:03:51,547 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:03:51,548 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:03:51,548 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:03:51,549 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:03:51,550 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:03:51,550 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:03:51,551 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:03:51,552 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:04:09,356 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:04:09,357 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:04:09,358 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:04:09,359 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:04:09,409 INFO     Section 'BOP' results saved.
+2025-04-09 20:04:09,410 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:04:09,411 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:04:09,412 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:04:09,413 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 20:04:09,413 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 20:04:09,432 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1509/command-7126772865950073-3937362595", line 334, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1509/command-7126772865950073-3937362595", line 152, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1509/command-7126772865950073-3937362595", line 88, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 20:04:09,436 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:04:09,437 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 20:04:09,438 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 20:04:25,081 INFO     No Daily Summary found.
+2025-04-09 20:04:25,145 INFO     Section 'TIME BREAKDOWN' results saved.
+2025-04-09 20:04:25,146 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:04:25,147 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:04:25,187 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:05:30,409 INFO     Starting main pipeline execution...
+2025-04-09 20:05:30,421 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:05:30,422 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:05:30,423 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:05:30,424 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:05:30,424 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:05:30,425 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:05:30,426 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:05:30,427 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:05:30,427 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:05:30,428 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:05:42,450 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:05:42,451 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:05:42,452 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:05:42,454 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:05:42,496 INFO     Section 'BOP' results saved.
+2025-04-09 20:05:42,497 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:05:42,498 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:05:42,498 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:05:42,499 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:05:42,500 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:05:42,501 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:05:42,501 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:05:42,502 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:05:42,544 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:10:25,273 INFO     Starting main pipeline execution...
+2025-04-09 20:10:25,509 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:10:25,512 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:10:25,514 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:10:25,515 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:10:25,516 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:10:25,517 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:10:25,518 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:10:25,520 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:10:25,521 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:10:25,522 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:10:28,361 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:10:28,363 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:10:28,364 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:10:28,366 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:10:28,417 INFO     Section 'BOP' results saved.
+2025-04-09 20:10:28,418 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:10:28,420 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:10:28,422 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:10:28,424 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:10:28,425 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:10:28,427 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:10:28,428 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:10:28,429 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:10:28,465 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:10:29,022 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:10:29,026 INFO     Main: Processing section 'BOP'
+2025-04-09 20:10:29,027 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:10:29,027 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:10:31,693 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:10:31,695 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:10:31,696 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:10:31,699 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:10:31,701 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:10:31,754 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:10:31,813 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:11:28,371 INFO     Starting main pipeline execution...
+2025-04-09 20:11:28,385 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:11:28,385 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:11:28,386 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:11:28,387 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:11:28,388 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:11:28,388 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:11:28,389 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:11:28,390 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:11:28,391 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:11:28,391 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:11:40,702 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:11:40,703 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:11:40,704 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:11:40,705 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:11:40,706 ERROR    Error processing section 'BOP': type object 'FileUtils' has no attribute 'sanitize_section_name'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1493/command-7126772865950073-2752042722", line 154, in main
+    safe_section = FileUtils.sanitize_section_name(section)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'FileUtils' has no attribute 'sanitize_section_name'
+2025-04-09 20:11:40,708 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:11:40,709 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:11:40,710 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:11:40,711 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:11:40,712 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:11:40,713 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:11:40,714 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:11:40,718 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:11:40,762 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:12:10,302 INFO     Starting main pipeline execution...
+2025-04-09 20:12:10,315 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:12:10,317 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:12:10,318 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:12:10,321 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:12:10,322 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:12:10,324 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:12:10,325 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:12:10,326 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:12:10,327 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:12:10,327 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:12:23,118 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:12:23,120 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:12:23,122 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:12:23,123 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:12:23,175 INFO     Section 'BOP' results saved.
+2025-04-09 20:12:23,179 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:12:23,180 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:12:23,183 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:12:23,188 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:12:23,190 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:12:23,192 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:12:23,194 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:12:23,196 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:12:23,236 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:12:23,914 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:12:23,919 INFO     Main: Processing section 'BOP'
+2025-04-09 20:12:23,920 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:12:23,921 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:12:37,521 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:12:37,522 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:12:37,524 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:12:37,525 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:12:37,527 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:12:37,584 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:12:37,624 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:12:47,526 INFO     Starting main pipeline execution...
+2025-04-09 20:12:47,537 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:12:47,538 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:12:47,539 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:12:47,540 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:12:47,540 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:12:47,541 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:12:47,542 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:12:47,547 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:12:47,548 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:12:47,549 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:12:59,135 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:12:59,136 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:12:59,137 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:12:59,143 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:12:59,144 ERROR    Error processing section 'BOP': type object 'FileUtils' has no attribute 'sanitize_section_name'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1493/command-7126772865950073-4276032755", line 154, in main
+    safe_section = FileUtils.sanitize_section_name(section)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'FileUtils' has no attribute 'sanitize_section_name'
+2025-04-09 20:12:59,146 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:12:59,147 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:12:59,148 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:12:59,149 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:12:59,150 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:12:59,151 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:12:59,152 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:12:59,153 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:12:59,194 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:13:14,662 INFO     Starting main pipeline execution...
+2025-04-09 20:13:14,673 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:13:14,674 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:13:14,675 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:13:14,676 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:13:14,680 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:13:14,681 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:13:14,682 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:13:14,683 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:13:14,685 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:13:14,686 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:13:26,163 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:13:26,165 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:13:26,166 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:13:26,169 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:13:26,225 INFO     Section 'BOP' results saved.
+2025-04-09 20:13:26,227 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:13:26,229 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:13:26,231 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:13:26,233 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:13:26,234 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:13:26,236 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:13:26,238 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:13:26,239 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:13:26,290 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:13:27,082 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:13:27,084 INFO     Main: Processing section 'BOP'
+2025-04-09 20:13:27,085 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:13:27,086 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:13:39,648 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:13:39,649 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:13:39,650 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:13:39,662 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:13:39,664 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:13:39,706 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:13:39,743 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:13:58,161 INFO     Starting main pipeline execution...
+2025-04-09 20:13:58,173 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:13:58,174 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:13:58,175 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:13:58,175 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:13:58,176 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:13:58,177 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:13:58,178 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:13:58,179 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:13:58,180 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:13:58,181 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:14:10,442 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:14:10,443 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:14:10,445 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:14:10,456 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:14:10,461 ERROR    Error processing section 'BOP': type object 'FileUtils' has no attribute 'sanitize_section_name'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1493/command-7126772865950073-3786011724", line 154, in main
+    safe_section = FileUtils.sanitize_section_name(section)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'FileUtils' has no attribute 'sanitize_section_name'
+2025-04-09 20:14:10,462 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:14:10,463 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:14:10,463 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:14:10,464 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:14:10,465 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:14:10,466 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:14:10,467 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:14:10,467 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:14:10,512 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:14:41,083 INFO     Starting main pipeline execution...
+2025-04-09 20:14:41,098 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:14:41,100 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:14:41,101 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:14:41,102 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:14:41,103 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:14:41,104 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:14:41,106 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:14:41,107 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:14:41,107 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:14:41,108 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:14:54,396 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:14:54,400 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:14:54,401 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:14:54,402 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:14:54,447 INFO     Section 'BOP' results saved.
+2025-04-09 20:14:54,449 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:14:54,450 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:14:54,452 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:14:54,454 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:14:54,460 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:14:54,462 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:14:54,463 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:14:54,464 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:14:54,504 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:14:55,357 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:14:55,360 INFO     Main: Processing section 'BOP'
+2025-04-09 20:14:55,360 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:14:55,361 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:15:07,034 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:15:07,035 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:15:07,036 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:15:07,038 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:15:07,040 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:15:07,087 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:15:07,129 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:15:13,656 INFO     Starting main pipeline execution...
+2025-04-09 20:15:13,667 INFO     Skipping section 'DAILY DRILLING REPORT' — no pipeline implemented yet.
+2025-04-09 20:15:13,668 INFO     Skipping section 'WELL/JOB INFORMATION' — no pipeline implemented yet.
+2025-04-09 20:15:13,669 INFO     Skipping section 'MUD' — no pipeline implemented yet.
+2025-04-09 20:15:13,670 INFO     Skipping section 'SURVEY DATA' — no pipeline implemented yet.
+2025-04-09 20:15:13,670 INFO     Skipping section 'DIR INFO' — no pipeline implemented yet.
+2025-04-09 20:15:13,671 INFO     Skipping section 'DRILL BITS' — no pipeline implemented yet.
+2025-04-09 20:15:13,672 INFO     Skipping section 'CASING' — no pipeline implemented yet.
+2025-04-09 20:15:13,672 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:15:13,673 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:15:13,674 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:15:25,211 WARNING  BOPPipeline: Last BOP Test Date not found in OCR text.
+2025-04-09 20:15:25,212 WARNING  BOPPipeline: Last BOP Drill not found in OCR text.
+2025-04-09 20:15:25,213 WARNING  BOPPipeline: Next BOP Test not found in OCR text.
+2025-04-09 20:15:25,214 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:15:25,256 INFO     Section 'BOP' results saved.
+2025-04-09 20:15:25,257 INFO     Skipping section 'PERSONNEL' — no pipeline implemented yet.
+2025-04-09 20:15:25,257 INFO     Skipping section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' — no pipeline implemented yet.
+2025-04-09 20:15:25,258 INFO     Skipping section 'BHA' — no pipeline implemented yet.
+2025-04-09 20:15:25,259 INFO     Skipping section 'PUMPS' — no pipeline implemented yet.
+2025-04-09 20:15:25,260 INFO     Skipping section 'COST DATA' — no pipeline implemented yet.
+2025-04-09 20:15:25,262 INFO     Skipping section 'TIME BREAKDOWN' — no pipeline implemented yet.
+2025-04-09 20:15:25,262 INFO     Skipping section 'CONSUMABLES' — no pipeline implemented yet.
+2025-04-09 20:15:25,263 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:15:25,298 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:28:32,233 INFO     Starting main pipeline execution...
+2025-04-09 20:28:32,505 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:28:32,507 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:28:32,508 ERROR    Error processing section 'BOP': name 'safe_read_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/2704/command-7126772865950073-1084731488", line 90, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/2704/command-7126772865950073-1084731488", line 39, in process_bop
+    img = safe_read_image(image_path)
+          ^^^^^^^^^^^^^^^
+NameError: name 'safe_read_image' is not defined
+2025-04-09 20:28:32,624 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:28:33,457 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:28:33,459 INFO     Main: Processing section 'BOP'
+2025-04-09 20:28:33,460 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:28:33,461 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:28:35,343 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:28:35,344 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:28:35,345 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:28:35,347 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:28:35,348 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:28:35,394 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:28:35,434 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:29:21,753 INFO     Starting main pipeline execution...
+2025-04-09 20:29:21,767 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:29:21,769 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:29:21,770 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:29:22,616 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:29:22,617 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:29:22,619 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:29:22,622 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:29:22,659 INFO     Section 'BOP' results saved.
+2025-04-09 20:29:22,694 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:29:23,231 INFO     Main pipeline started for Pumps and BOP sections.
+2025-04-09 20:29:23,241 INFO     Main: Processing section 'BOP'
+2025-04-09 20:29:23,242 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:29:23,243 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:29:24,921 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:29:24,923 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:29:24,923 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:29:24,925 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:29:24,926 INFO     Main: BOP output:
+{
+    "BOP": {
+        "Last BOP Test Date": "6/30/24",
+        "Last BOP Drill": "7/3/2024",
+        "Next BOP Test": "7/25/24"
+    }
+}
+2025-04-09 20:29:24,988 INFO     BOP output saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/bop.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/bop.csv
+2025-04-09 20:29:25,038 INFO     Main: Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json
+2025-04-09 20:39:05,502 INFO     Starting main pipeline execution...
+2025-04-09 20:42:05,047 INFO     Starting main pipeline execution...
+2025-04-09 20:42:17,839 INFO     Starting main pipeline execution...
+2025-04-09 20:42:17,850 INFO     Processing section: DAILY DRILLING REPORT from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-09 20:42:17,852 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-09 20:42:22,606 INFO     Starting main pipeline execution...
+2025-04-09 20:42:22,622 INFO     Processing section: DAILY DRILLING REPORT from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-09 20:42:22,625 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-09 20:42:26,294 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-09 20:42:26,383 INFO     Section 'DAILY DRILLING REPORT' results saved.
+2025-04-09 20:42:26,385 INFO     Processing section: WELL/JOB INFORMATION from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-09 20:42:26,387 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-09 20:42:28,932 INFO     Well/Job Information processed.
+2025-04-09 20:42:28,985 INFO     Section 'WELL/JOB INFORMATION' results saved.
+2025-04-09 20:42:28,987 INFO     Processing section: MUD from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-09 20:42:28,988 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-09 20:42:33,984 INFO     Section 'MUD' results saved.
+2025-04-09 20:42:33,985 INFO     Processing section: SURVEY DATA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-09 20:42:33,987 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-09 20:42:38,173 INFO     Survey Data processed.
+2025-04-09 20:42:38,232 INFO     Section 'SURVEY DATA' results saved.
+2025-04-09 20:42:38,234 INFO     Processing section: DIR INFO from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-09 20:42:38,236 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-09 20:42:40,731 INFO     DIR INFO DataFrame shape: (5, 3)
+2025-04-09 20:42:40,782 INFO     Section 'DIR INFO' results saved.
+2025-04-09 20:42:40,783 INFO     Processing section: DRILL BITS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-09 20:42:40,786 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-09 20:42:48,974 INFO     Drill Bits Row 0: DRILL BITS DRILL BITS [BLANK]
+2025-04-09 20:42:48,976 INFO     Drill Bits Row 1: Bit Data Nozzles Depth Hours Dull Grade
+2025-04-09 20:42:48,978 INFO     Drill Bits Row 2: Bit # Size Make Model Serial # Number x Size TFA In Out Feet ROP Total On Btm I [@) D L B G [e) RP
+2025-04-09 20:42:48,979 INFO     Drill Bits Row 3: 4 6.750 BAKER DD40+TWS 5355166 6X12 0.66 9873 20537 10664 129.65 82.25 64.75 [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-09 20:42:48,983 INFO     Drill Bits Row 4: 3 9.875 REED TKS56-H1 A308739 7X12 0.77 2283 9873 7590 233.54 32.50 23.60 2 3 BT N xX [BLANK] WT TD
+2025-04-09 20:42:48,984 INFO     Drill Bits Parsed row: {'Bit #': '4', 'Size': '6.750', 'Make': 'BAKER', 'Model': 'DD40+TWS', 'Serial #': '5355166', 'Nozzle-(Number x Size)': '6X12', 'Nozzle-TFA': '0.66', 'Depth-In': '9873', 'Depth-Out': '20537', 'Depth-Feet': '10664', 'Depth-ROP': '129.65', 'Hours-Total': '82.25', 'Hours-On Btm': '64.75', 'Dull Grade-I': '[BLANK]', 'Dull Grade-O1': '[BLANK]', 'Dull Grade-D': '[BLANK]', 'Dull Grade-L': '[BLANK]', 'Dull Grade-B': '[BLANK]', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': '[BLANK]', 'Dull Grade-RP': '[BLANK]'}
+2025-04-09 20:42:48,985 INFO     Drill Bits Parsed row: {'Bit #': '3', 'Size': '9.875', 'Make': 'REED', 'Model': 'TKS56-H1', 'Serial #': 'A308739', 'Nozzle-(Number x Size)': '7X12', 'Nozzle-TFA': '0.77', 'Depth-In': '2283', 'Depth-Out': '9873', 'Depth-Feet': '7590', 'Depth-ROP': '233.54', 'Hours-Total': '32.50', 'Hours-On Btm': '23.60', 'Dull Grade-I': '2', 'Dull Grade-O1': '3', 'Dull Grade-D': 'BT', 'Dull Grade-L': 'N', 'Dull Grade-B': 'xX', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': 'WT', 'Dull Grade-RP': 'TD'}
+2025-04-09 20:42:49,019 INFO     Section 'DRILL BITS' results saved.
+2025-04-09 20:42:49,020 INFO     Processing section: CASING from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-09 20:42:49,021 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-09 20:42:54,902 WARNING  Row skipped due to insufficient tokens: ['CASING', 'CASING']
+2025-04-09 20:42:54,903 WARNING  Row skipped due to insufficient tokens: ['OG']
+2025-04-09 20:42:55,007 INFO     Section 'CASING' results saved.
+2025-04-09 20:42:55,008 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:42:55,010 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:42:55,011 ERROR    Error processing section 'BOP': name 'safe_read_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/1754/command-7126772865950073-48714367", line 129, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1754/command-7126772865950073-48714367", line 39, in process_bop
+    img = safe_read_image(image_path)
+          ^^^^^^^^^^^^^^^
+NameError: name 'safe_read_image' is not defined
+2025-04-09 20:42:55,018 INFO     Processing section: PERSONNEL from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-09 20:42:55,019 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-09 20:42:59,408 ERROR    Error processing section 'PERSONNEL': type object 'ImageUtils' has no attribute 'group_ocr_rows'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1754/command-7126772865950073-48714367", line 129, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1754/command-7126772865950058-1831612940", line 97, in process
+    groups = ImageUtils.group_ocr_rows(roi_results, threshold=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'group_ocr_rows'
+2025-04-09 20:42:59,411 INFO     Processing section: DAILY NUMBERS: OBSERVATION & INTERVENTION from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-09 20:42:59,412 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-09 20:43:01,484 INFO     Final Obs & Int structured data: [{'Type': 'Stop Cards', 'Number': '14'}, {'Type': "Hazard ID's", 'Number': '2'}, {'Type': "JSA's", 'Number': '5'}, {'Type': 'Permit to Work', 'Number': ''}, {'Type': 'Totals', 'Number': '21'}]
+2025-04-09 20:43:01,537 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' results saved.
+2025-04-09 20:43:01,538 INFO     Processing section: BHA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-09 20:43:01,539 INFO     Reading image using PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-09 20:43:02,423 INFO     Section 'BHA' results saved.
+2025-04-09 20:43:02,425 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 20:43:02,427 INFO     Reading image using PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 20:43:03,268 WARNING  PumpsPipeline: No match found in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-09 20:43:03,313 INFO     Section 'PUMPS' results saved.
+2025-04-09 20:43:03,315 INFO     Processing section: COST DATA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-09 20:43:03,316 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-09 20:43:03,814 INFO     Cost OCR extraction complete.
+2025-04-09 20:43:03,817 INFO     COST DataFrame shape: (6, 2)
+2025-04-09 20:43:03,875 INFO     Section 'COST DATA' results saved.
+2025-04-09 20:43:03,877 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 20:43:03,878 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 20:43:17,707 INFO     No Daily Summary found.
+2025-04-09 20:43:17,764 INFO     Section 'TIME BREAKDOWN' results saved.
+2025-04-09 20:43:17,765 INFO     Processing section: CONSUMABLES from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-09 20:43:17,766 INFO     Reading image using OpenCV from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-09 20:43:21,134 INFO     Section 'CONSUMABLES' results saved.
+2025-04-09 20:43:21,135 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:43:21,183 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:46:27,673 INFO     Starting main pipeline execution...
+2025-04-09 20:46:27,698 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:46:27,699 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:46:27,701 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:46:39,316 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:46:39,317 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:46:39,318 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:46:39,320 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:46:39,400 INFO     Section 'BOP' results saved.
+2025-04-09 20:46:39,437 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 20:48:59,193 INFO     Starting main pipeline execution...
+2025-04-09 20:48:59,237 INFO     Processing section: DAILY DRILLING REPORT from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-09 20:48:59,239 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-09 20:49:10,844 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-09 20:49:10,921 INFO     Section 'DAILY DRILLING REPORT' results saved.
+2025-04-09 20:49:10,923 INFO     Processing section: WELL/JOB INFORMATION from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-09 20:49:10,924 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-09 20:49:11,963 INFO     Well/Job Information processed.
+2025-04-09 20:49:12,017 INFO     Section 'WELL/JOB INFORMATION' results saved.
+2025-04-09 20:49:12,018 INFO     Processing section: MUD from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-09 20:49:12,030 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-09 20:49:17,178 INFO     Section 'MUD' results saved.
+2025-04-09 20:49:17,179 INFO     Processing section: SURVEY DATA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-09 20:49:17,180 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-09 20:49:21,272 INFO     Survey Data processed.
+2025-04-09 20:49:21,315 INFO     Section 'SURVEY DATA' results saved.
+2025-04-09 20:49:21,317 INFO     Processing section: DIR INFO from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-09 20:49:21,318 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-09 20:49:23,622 INFO     DIR INFO DataFrame shape: (5, 3)
+2025-04-09 20:49:23,671 INFO     Section 'DIR INFO' results saved.
+2025-04-09 20:49:23,672 INFO     Processing section: DRILL BITS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-09 20:49:23,674 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-09 20:49:32,368 INFO     Drill Bits Row 0: DRILL BITS DRILL BITS [BLANK]
+2025-04-09 20:49:32,369 INFO     Drill Bits Row 1: Bit Data Nozzles Depth Hours Dull Grade
+2025-04-09 20:49:32,370 INFO     Drill Bits Row 2: Bit # Size Make Model Serial # Number x Size TFA In Out Feet ROP Total On Btm I [@) D L B G [e) RP
+2025-04-09 20:49:32,372 INFO     Drill Bits Row 3: 4 6.750 BAKER DD40+TWS 5355166 6X12 0.66 9873 20537 10664 129.65 82.25 64.75 [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-09 20:49:32,373 INFO     Drill Bits Row 4: 3 9.875 REED TKS56-H1 A308739 7X12 0.77 2283 9873 7590 233.54 32.50 23.60 2 3 BT N xX [BLANK] WT TD
+2025-04-09 20:49:32,376 INFO     Drill Bits Parsed row: {'Bit #': '4', 'Size': '6.750', 'Make': 'BAKER', 'Model': 'DD40+TWS', 'Serial #': '5355166', 'Nozzle-(Number x Size)': '6X12', 'Nozzle-TFA': '0.66', 'Depth-In': '9873', 'Depth-Out': '20537', 'Depth-Feet': '10664', 'Depth-ROP': '129.65', 'Hours-Total': '82.25', 'Hours-On Btm': '64.75', 'Dull Grade-I': '[BLANK]', 'Dull Grade-O1': '[BLANK]', 'Dull Grade-D': '[BLANK]', 'Dull Grade-L': '[BLANK]', 'Dull Grade-B': '[BLANK]', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': '[BLANK]', 'Dull Grade-RP': '[BLANK]'}
+2025-04-09 20:49:32,377 INFO     Drill Bits Parsed row: {'Bit #': '3', 'Size': '9.875', 'Make': 'REED', 'Model': 'TKS56-H1', 'Serial #': 'A308739', 'Nozzle-(Number x Size)': '7X12', 'Nozzle-TFA': '0.77', 'Depth-In': '2283', 'Depth-Out': '9873', 'Depth-Feet': '7590', 'Depth-ROP': '233.54', 'Hours-Total': '32.50', 'Hours-On Btm': '23.60', 'Dull Grade-I': '2', 'Dull Grade-O1': '3', 'Dull Grade-D': 'BT', 'Dull Grade-L': 'N', 'Dull Grade-B': 'xX', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': 'WT', 'Dull Grade-RP': 'TD'}
+2025-04-09 20:49:32,420 INFO     Section 'DRILL BITS' results saved.
+2025-04-09 20:49:32,421 INFO     Processing section: CASING from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-09 20:49:32,425 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-09 20:51:40,304 INFO     Starting main pipeline execution...
+2025-04-09 20:51:40,610 INFO     Processing section: DAILY DRILLING REPORT from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-09 20:51:40,614 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-09 20:51:47,255 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-09 20:51:47,309 INFO     Section 'DAILY DRILLING REPORT' results saved.
+2025-04-09 20:51:47,314 INFO     Processing section: WELL/JOB INFORMATION from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-09 20:51:47,317 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-09 20:51:48,424 INFO     Well/Job Information processed.
+2025-04-09 20:51:48,473 INFO     Section 'WELL/JOB INFORMATION' results saved.
+2025-04-09 20:51:48,475 INFO     Processing section: MUD from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-09 20:51:48,476 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-09 20:51:55,048 INFO     Section 'MUD' results saved.
+2025-04-09 20:51:55,049 INFO     Processing section: SURVEY DATA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-09 20:51:55,051 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-09 20:51:59,602 INFO     Survey Data processed.
+2025-04-09 20:51:59,659 INFO     Section 'SURVEY DATA' results saved.
+2025-04-09 20:51:59,661 INFO     Processing section: DIR INFO from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-09 20:51:59,663 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-09 20:52:02,182 INFO     DIR INFO DataFrame shape: (5, 3)
+2025-04-09 20:52:02,225 INFO     Section 'DIR INFO' results saved.
+2025-04-09 20:52:02,227 INFO     Processing section: DRILL BITS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-09 20:52:02,228 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-09 20:52:13,371 INFO     Drill Bits Row 0: DRILL BITS DRILL BITS [BLANK]
+2025-04-09 20:52:13,373 INFO     Drill Bits Row 1: Bit Data Nozzles Depth Hours Dull Grade
+2025-04-09 20:52:13,375 INFO     Drill Bits Row 2: Bit # Size Make Model Serial # Number x Size TFA In Out Feet ROP Total On Btm I [@) D L B G [e) RP
+2025-04-09 20:52:13,377 INFO     Drill Bits Row 3: 4 6.750 BAKER DD40+TWS 5355166 6X12 0.66 9873 20537 10664 129.65 82.25 64.75 [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-09 20:52:13,378 INFO     Drill Bits Row 4: 3 9.875 REED TKS56-H1 A308739 7X12 0.77 2283 9873 7590 233.54 32.50 23.60 2 3 BT N xX [BLANK] WT TD
+2025-04-09 20:52:13,379 INFO     Drill Bits Parsed row: {'Bit #': '4', 'Size': '6.750', 'Make': 'BAKER', 'Model': 'DD40+TWS', 'Serial #': '5355166', 'Nozzle-(Number x Size)': '6X12', 'Nozzle-TFA': '0.66', 'Depth-In': '9873', 'Depth-Out': '20537', 'Depth-Feet': '10664', 'Depth-ROP': '129.65', 'Hours-Total': '82.25', 'Hours-On Btm': '64.75', 'Dull Grade-I': '[BLANK]', 'Dull Grade-O1': '[BLANK]', 'Dull Grade-D': '[BLANK]', 'Dull Grade-L': '[BLANK]', 'Dull Grade-B': '[BLANK]', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': '[BLANK]', 'Dull Grade-RP': '[BLANK]'}
+2025-04-09 20:52:13,382 INFO     Drill Bits Parsed row: {'Bit #': '3', 'Size': '9.875', 'Make': 'REED', 'Model': 'TKS56-H1', 'Serial #': 'A308739', 'Nozzle-(Number x Size)': '7X12', 'Nozzle-TFA': '0.77', 'Depth-In': '2283', 'Depth-Out': '9873', 'Depth-Feet': '7590', 'Depth-ROP': '233.54', 'Hours-Total': '32.50', 'Hours-On Btm': '23.60', 'Dull Grade-I': '2', 'Dull Grade-O1': '3', 'Dull Grade-D': 'BT', 'Dull Grade-L': 'N', 'Dull Grade-B': 'xX', 'Dull Grade-G': '[BLANK]', 'Dull Grade-O2': 'WT', 'Dull Grade-RP': 'TD'}
+2025-04-09 20:52:13,410 INFO     Section 'DRILL BITS' results saved.
+2025-04-09 20:52:13,411 INFO     Processing section: CASING from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-09 20:52:13,412 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-09 20:52:19,660 WARNING  Row skipped due to insufficient tokens: ['CASING', 'CASING']
+2025-04-09 20:52:19,662 WARNING  Row skipped due to insufficient tokens: ['OG']
+2025-04-09 20:52:19,711 INFO     Section 'CASING' results saved.
+2025-04-09 20:52:19,712 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 20:52:19,714 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 20:52:19,720 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 20:52:20,139 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 20:52:20,140 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 20:52:20,143 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 20:52:20,146 INFO     BOPPipeline: Processing complete.
+2025-04-09 20:52:20,184 INFO     Section 'BOP' results saved.
+2025-04-09 20:52:20,185 INFO     Processing section: PERSONNEL from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-09 20:52:20,186 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-09 20:52:24,516 ERROR    Error processing section 'PERSONNEL': type object 'ImageUtils' has no attribute 'group_ocr_rows'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1505/command-7126772865950096-184753120", line 270, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1505/command-7126772865950058-1831612940", line 97, in process
+    groups = ImageUtils.group_ocr_rows(roi_results, threshold=20)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'group_ocr_rows'
+2025-04-09 20:52:24,519 INFO     Processing section: DAILY NUMBERS: OBSERVATION & INTERVENTION from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-09 20:52:24,520 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-09 20:52:26,875 INFO     Final Obs & Int structured data: [{'Type': 'Stop Cards', 'Number': '14'}, {'Type': "Hazard ID's", 'Number': '2'}, {'Type': "JSA's", 'Number': '5'}, {'Type': 'Permit to Work', 'Number': ''}, {'Type': 'Totals', 'Number': '21'}]
+2025-04-09 20:52:26,924 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' results saved.
+2025-04-09 20:52:26,926 INFO     Processing section: BHA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-09 20:52:26,927 INFO     Reading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-09 20:52:27,870 INFO     Section 'BHA' results saved.
+2025-04-09 20:52:27,872 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 20:52:27,874 INFO     Reading image (PIL) from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 20:52:27,888 ERROR    Error processing section 'PUMPS': type object 'ImageUtils' has no attribute 'perform_ocr'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1505/command-7126772865950096-184753120", line 270, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1505/command-7126772865950069-3124066430", line 211, in process
+    ocr_text = ImageUtils.perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'perform_ocr'
+2025-04-09 20:52:27,895 INFO     Processing section: COST DATA from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-09 20:52:27,896 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-09 20:52:28,368 INFO     Cost OCR extraction complete.
+2025-04-09 20:52:28,372 INFO     COST DataFrame shape: (6, 2)
+2025-04-09 20:52:28,423 INFO     Section 'COST DATA' results saved.
+2025-04-09 20:52:28,424 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 20:52:28,425 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 20:52:39,070 ERROR    Error processing section 'TIME BREAKDOWN': type object 'ImageUtils' has no attribute 'perform_ocr'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1505/command-7126772865950096-184753120", line 270, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1505/command-7126772865950069-3124066430", line 399, in process
+    full_ocr_text = ImageUtils.perform_ocr(proc_img, config="--psm 6")
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'perform_ocr'
+2025-04-09 20:52:39,073 INFO     Processing section: CONSUMABLES from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-09 20:52:39,075 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-09 20:52:42,563 INFO     Section 'CONSUMABLES' results saved.
+2025-04-09 20:52:42,569 INFO     Skipping section 'BIT INFO' — no pipeline implemented yet.
+2025-04-09 20:52:42,605 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 21:16:51,569 INFO     Starting main pipeline execution...
+2025-04-09 21:16:51,581 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 21:16:51,582 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 21:16:51,583 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 21:17:03,638 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 21:17:03,639 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 21:17:03,640 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 21:17:03,641 INFO     BOPPipeline: Processing complete.
+2025-04-09 21:17:03,688 INFO     Section 'BOP' results saved.
+2025-04-09 21:17:03,689 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 21:17:03,690 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 21:17:03,708 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1495/command-7126772865950092-2633571684", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2633571684", line 287, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2633571684", line 91, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 21:17:03,713 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 21:17:03,714 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 21:17:14,596 ERROR    Error processing section 'TIME BREAKDOWN': type object 'ImageUtils' has no attribute 'perform_ocr'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1495/command-7126772865950092-2633571684", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2633571684", line 416, in process
+    full_ocr_text = ImageUtils.perform_ocr(proc_img, config="--psm 6")
+                    ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'perform_ocr'
+2025-04-09 21:17:14,641 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 21:21:48,060 INFO     Starting main pipeline execution...
+2025-04-09 21:21:48,090 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 21:21:48,091 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 21:21:48,092 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 21:21:59,454 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 21:21:59,455 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 21:21:59,456 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 21:21:59,457 INFO     BOPPipeline: Processing complete.
+2025-04-09 21:21:59,502 INFO     Section 'BOP' results saved.
+2025-04-09 21:21:59,503 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 21:21:59,503 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 21:21:59,521 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1495/command-7126772865950092-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2431989624", line 287, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2431989624", line 91, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 21:21:59,530 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 21:21:59,531 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 21:21:59,680 ERROR    Error processing section 'TIME BREAKDOWN': name 'preprocess_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/1495/command-7126772865950092-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1495/command-7126772865950092-2431989624", line 399, in process
+    proc_img = preprocess_image(img, debug=debug)
+               ^^^^^^^^^^^^^^^^
+NameError: name 'preprocess_image' is not defined
+2025-04-09 21:21:59,733 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 21:31:39,503 INFO     Starting main pipeline execution...
+2025-04-09 21:31:39,532 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 21:31:39,533 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 21:31:39,534 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 21:31:44,080 INFO     Starting main pipeline execution...
+2025-04-09 21:31:44,089 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 21:31:44,090 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 21:31:44,091 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 21:31:56,975 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 21:31:56,976 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 21:31:56,977 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 21:31:56,979 INFO     BOPPipeline: Processing complete.
+2025-04-09 21:31:57,041 INFO     Section 'BOP' results saved.
+2025-04-09 21:31:57,042 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 21:31:57,043 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 21:31:57,061 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 287, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 91, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 21:31:57,065 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 21:31:57,066 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 21:31:57,220 ERROR    Error processing section 'TIME BREAKDOWN': name 'preprocess_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 399, in process
+    proc_img = preprocess_image(img, debug=debug)
+               ^^^^^^^^^^^^^^^^
+NameError: name 'preprocess_image' is not defined
+2025-04-09 21:31:57,270 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 22:20:09,689 INFO     Starting main pipeline execution...
+2025-04-09 22:20:09,699 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 22:20:09,699 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 22:20:09,700 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 22:21:01,866 INFO     Starting main pipeline execution...
+2025-04-09 22:21:01,878 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 22:21:01,879 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 22:21:01,879 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 22:21:13,910 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 22:21:13,911 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 22:21:13,911 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 22:21:13,912 INFO     BOPPipeline: Processing complete.
+2025-04-09 22:21:13,976 INFO     Section 'BOP' results saved.
+2025-04-09 22:21:13,977 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 22:21:13,978 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 22:21:14,003 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 287, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 91, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 22:21:14,007 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 22:21:14,008 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 22:21:14,134 ERROR    Error processing section 'TIME BREAKDOWN': name 'preprocess_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/8422/command-7126772865950104-2431989624", line 399, in process
+    proc_img = preprocess_image(img, debug=debug)
+               ^^^^^^^^^^^^^^^^
+NameError: name 'preprocess_image' is not defined
+2025-04-09 22:21:14,177 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-09 22:39:00,173 INFO     Starting main pipeline execution...
+2025-04-09 22:39:00,393 INFO     Processing section: BOP from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-09 22:39:00,395 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-09 22:39:00,395 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-09 22:39:03,046 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-09 22:39:03,047 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-09 22:39:03,048 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-09 22:39:03,052 INFO     BOPPipeline: Processing complete.
+2025-04-09 22:39:03,107 INFO     Section 'BOP' results saved.
+2025-04-09 22:39:03,108 INFO     Processing section: PUMPS from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-09 22:39:03,112 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-09 22:39:03,131 ERROR    Error processing section 'PUMPS': OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+Traceback (most recent call last):
+  File "/root/.ipykernel/2608/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/2608/command-7126772865950104-2431989624", line 287, in process
+    ocr_text = perform_ocr(pil_img, config="--psm 6")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/2608/command-7126772865950104-2431989624", line 91, in perform_ocr
+    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cv2.error: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'cvtColor'
+> Overload resolution failed:
+>  - src is not a numpy array, neither a scalar
+>  - Expected Ptr<cv::UMat> for argument 'src'
+
+2025-04-09 22:39:03,139 INFO     Processing section: TIME BREAKDOWN from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png...
+2025-04-09 22:39:03,140 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-09 22:39:03,280 ERROR    Error processing section 'TIME BREAKDOWN': name 'preprocess_image' is not defined
+Traceback (most recent call last):
+  File "/root/.ipykernel/2608/command-7126772865950104-2431989624", line 453, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/2608/command-7126772865950104-2431989624", line 399, in process
+    proc_img = preprocess_image(img, debug=debug)
+               ^^^^^^^^^^^^^^^^
+NameError: name 'preprocess_image' is not defined
+2025-04-09 22:39:03,334 INFO     Aggregated results saved to JSON: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and CSV: /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.

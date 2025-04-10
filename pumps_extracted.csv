@@ -1,0 +1,6 @@
+Number,Model,Type,HHP,Efficiency,Stroke (in),Liner (in),P-Rating (psi),P-Limit (psi),SPM Rating,SPM Limit
+1,BOMCO,TRIPLEX,1600,95,12.000,4.75,7500,7100,120,110
+2,BOMCO,TRIPLEX,1600,95,12.000,4.75,7500,7100,120,110
+3,BOMCO,TRIPLEX,1600,95,12.000,4.75,7500,7100,120,110
+At Drilling/Cire Rate,Annular Velocity,4325 PSI,134,SPM,351.76 GPM,8.38 BPM,468.11 DC,340.61 DP,Drilling/Cire Rate 1,@
+2.63 Gal/Stoke,Drilling/Cire Rate 2,4475 PSI,@,134,SPM,2.63 Gal/Stoke,351.76 GPM,8.38 BPM,468.11 DC,340.61 DP

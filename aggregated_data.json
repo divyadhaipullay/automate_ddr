@@ -1,0 +1,49 @@
+{
+    "PUMPS": [
+        {
+            "Number": "2",
+            "Model": "BOMCO",
+            "Type": "TRIPLEX",
+            "HHP": "12.000",
+            "Efficiency": "7500",
+            "Stroke (in)": "7100",
+            "Liner (in)": "",
+            "P-Rating (psi)": "",
+            "P-Limit (psi)": "",
+            "SPM Rating": "",
+            "SPM Limit": ""
+        }
+    ],
+    "DrillingCircRates": [
+        {
+            "RateID": "",
+            "Pressure": "",
+            "SPM": "",
+            "Gal_Stroke": "",
+            "GPM": "",
+            "BPM": "",
+            "DC": "",
+            "DP": ""
+        },
+        {
+            "RateID": "1",
+            "Pressure": "4325",
+            "SPM": "134",
+            "Gal_Stroke": "2.63",
+            "GPM": "351.76",
+            "BPM": "8.38",
+            "DC": "468.11",
+            "DP": "340.61"
+        },
+        {
+            "RateID": "2",
+            "Pressure": "4475",
+            "SPM": "134",
+            "Gal_Stroke": "2.63",
+            "GPM": "351.76",
+            "BPM": "8.38",
+            "DC": "468.11",
+            "DP": ""
+        }
+    ]
+}
