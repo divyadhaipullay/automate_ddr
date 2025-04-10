@@ -15264,3 +15264,193 @@ Drilling/Circ Rate 1  Driling/Circ Rate 2
 2025-04-10 15:52:35,203 INFO     Section 'CONSUMABLES' processed successfully.
 2025-04-10 15:52:35,204 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
 2025-04-10 15:52:35,260 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-10 18:08:24,849 INFO     Starting main pipeline execution...
+2025-04-10 18:08:25,156 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-10 18:08:25,158 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-10 18:08:31,094 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-10 18:08:31,173 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-10 18:08:31,174 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-10 18:08:31,179 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-10 18:08:32,109 INFO     Well/Job Information processed.
+2025-04-10 18:08:32,152 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-10 18:08:32,155 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-10 18:08:32,156 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-10 18:08:39,908 INFO     Mud section processed.
+2025-04-10 18:08:39,970 INFO     Section 'MUD' processed successfully.
+2025-04-10 18:08:39,972 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-10 18:08:39,974 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-10 18:08:44,377 INFO     Survey Data processed.
+2025-04-10 18:08:44,422 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-10 18:08:44,424 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-10 18:08:44,426 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-10 18:08:47,077 INFO     Direction Information processed.
+2025-04-10 18:08:47,124 INFO     Section 'DIR INFO' processed successfully.
+2025-04-10 18:08:47,128 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-10 18:08:47,129 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-10 18:08:56,138 INFO     Drill Bits processed.
+2025-04-10 18:08:56,189 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-10 18:08:56,191 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-10 18:08:56,192 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-10 18:09:04,216 INFO     Casing data processed.
+2025-04-10 18:09:04,281 INFO     Section 'CASING' processed successfully.
+2025-04-10 18:09:04,282 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-10 18:09:04,284 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-10 18:09:04,285 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-10 18:09:04,934 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-10 18:09:04,940 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-10 18:09:04,942 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-10 18:09:04,943 INFO     BOPPipeline: Processing complete.
+2025-04-10 18:09:05,003 INFO     Section 'BOP' processed successfully.
+2025-04-10 18:09:05,005 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-10 18:09:05,006 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-10 18:09:09,211 INFO     Personnel data processed.
+2025-04-10 18:09:09,266 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-10 18:09:09,267 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-10 18:09:09,269 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-10 18:09:11,601 INFO     Observation & Intervention data processed.
+2025-04-10 18:09:11,654 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-10 18:09:11,657 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-10 18:09:11,659 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-10 18:09:12,650 INFO     BHA data processed.
+2025-04-10 18:09:12,758 INFO     Section 'BHA' processed successfully.
+2025-04-10 18:09:12,759 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-10 18:09:12,761 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-10 18:09:13,871 WARNING  [PUMPS] No match found in segment:
+Drilling/Circ Rate 1  Driling/Circ Rate 2
+2025-04-10 18:09:13,896 INFO     Section 'PUMPS' processed successfully.
+2025-04-10 18:09:13,898 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-10 18:09:13,899 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-10 18:09:14,595 INFO     Cost OCR extraction complete.
+2025-04-10 18:09:14,598 INFO     Cost data processed.
+2025-04-10 18:09:14,652 INFO     Section 'COST DATA' processed successfully.
+2025-04-10 18:09:14,655 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-10 18:09:14,656 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-10 18:09:18,333 INFO     Consumables data processed.
+2025-04-10 18:09:18,385 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-10 18:09:18,386 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-10 18:09:18,427 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-10 18:10:59,573 INFO     Starting main pipeline execution...
+2025-04-10 18:10:59,596 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-10 18:10:59,598 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-10 18:11:01,446 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-10 18:11:01,493 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-10 18:11:01,495 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-10 18:11:01,496 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-10 18:11:03,101 INFO     Well/Job Information processed.
+2025-04-10 18:11:03,148 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-10 18:11:03,151 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-10 18:11:03,155 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-10 18:11:09,913 INFO     Mud section processed.
+2025-04-10 18:11:09,957 INFO     Section 'MUD' processed successfully.
+2025-04-10 18:11:09,958 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-10 18:11:09,960 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-10 18:11:14,175 INFO     Survey Data processed.
+2025-04-10 18:11:14,223 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-10 18:11:14,224 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-10 18:11:14,226 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-10 18:11:18,539 INFO     Direction Information processed.
+2025-04-10 18:11:18,589 INFO     Section 'DIR INFO' processed successfully.
+2025-04-10 18:11:18,590 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-10 18:11:18,592 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-10 18:11:26,941 INFO     Drill Bits processed.
+2025-04-10 18:11:26,966 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-10 18:11:26,968 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-10 18:11:26,969 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-10 18:11:32,821 INFO     Casing data processed.
+2025-04-10 18:11:32,869 INFO     Section 'CASING' processed successfully.
+2025-04-10 18:11:32,870 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-10 18:11:32,871 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-10 18:11:32,873 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-10 18:11:33,404 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-10 18:11:33,405 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-10 18:11:33,406 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-10 18:11:33,408 INFO     BOPPipeline: Processing complete.
+2025-04-10 18:11:33,446 INFO     Section 'BOP' processed successfully.
+2025-04-10 18:11:33,451 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-10 18:11:33,453 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-10 18:11:37,730 INFO     Personnel data processed.
+2025-04-10 18:11:37,773 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-10 18:11:37,774 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-10 18:11:37,779 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-10 18:11:39,909 INFO     Observation & Intervention data processed.
+2025-04-10 18:11:39,960 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-10 18:11:39,965 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-10 18:11:39,966 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-10 18:11:40,800 INFO     BHA data processed.
+2025-04-10 18:11:40,838 INFO     Section 'BHA' processed successfully.
+2025-04-10 18:11:40,839 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-10 18:11:45,215 INFO     Section 'PUMPS' processed successfully.
+2025-04-10 18:11:45,217 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-10 18:11:45,218 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-10 18:11:46,037 INFO     Cost OCR extraction complete.
+2025-04-10 18:11:46,039 INFO     Cost data processed.
+2025-04-10 18:11:46,081 INFO     Section 'COST DATA' processed successfully.
+2025-04-10 18:11:46,082 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-10 18:11:46,084 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-10 18:11:49,657 INFO     Consumables data processed.
+2025-04-10 18:11:49,709 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-10 18:11:49,711 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-10 18:11:49,751 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-10 21:28:23,309 INFO     Starting main pipeline execution...
+2025-04-10 21:28:23,639 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-10 21:28:23,648 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-10 21:28:29,081 INFO     Daily Drilling Report OCR extraction complete.
+2025-04-10 21:28:29,267 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-10 21:28:29,453 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-10 21:28:29,457 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-10 21:28:30,907 INFO     Well/Job Information processed.
+2025-04-10 21:28:30,961 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-10 21:28:30,963 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-10 21:28:30,965 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-10 21:28:42,973 INFO     Mud section processed.
+2025-04-10 21:28:43,039 INFO     Section 'MUD' processed successfully.
+2025-04-10 21:28:43,041 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-10 21:28:43,042 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-10 21:28:47,313 INFO     Survey Data processed.
+2025-04-10 21:28:47,365 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-10 21:28:47,366 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-10 21:28:47,368 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-10 21:28:49,885 INFO     Direction Information processed.
+2025-04-10 21:28:49,945 INFO     Section 'DIR INFO' processed successfully.
+2025-04-10 21:28:49,948 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-10 21:28:49,949 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-10 21:28:58,986 INFO     Drill Bits processed.
+2025-04-10 21:28:59,017 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-10 21:28:59,019 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-10 21:28:59,020 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-10 21:29:05,054 INFO     Casing data processed.
+2025-04-10 21:29:05,142 INFO     Section 'CASING' processed successfully.
+2025-04-10 21:29:05,144 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-10 21:29:05,145 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-10 21:29:05,147 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-10 21:29:05,811 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-10 21:29:05,813 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-10 21:29:05,815 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-10 21:29:05,817 INFO     BOPPipeline: Processing complete.
+2025-04-10 21:29:05,912 INFO     Section 'BOP' processed successfully.
+2025-04-10 21:29:05,913 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-10 21:29:05,915 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-10 21:29:10,021 INFO     Personnel data processed.
+2025-04-10 21:29:10,071 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-10 21:29:10,073 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-10 21:29:10,074 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-10 21:29:12,270 INFO     Observation & Intervention data processed.
+2025-04-10 21:29:12,336 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-10 21:29:12,337 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-10 21:29:12,339 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-10 21:29:13,320 INFO     BHA data processed.
+2025-04-10 21:29:13,384 INFO     Section 'BHA' processed successfully.
+2025-04-10 21:29:13,385 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-10 21:29:13,387 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-10 21:29:14,382 INFO     Section 'PUMPS' processed successfully.
+2025-04-10 21:29:14,384 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-10 21:29:14,385 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-10 21:29:14,987 INFO     Cost OCR extraction complete.
+2025-04-10 21:29:14,992 INFO     Cost data processed.
+2025-04-10 21:29:15,054 INFO     Section 'COST DATA' processed successfully.
+2025-04-10 21:29:15,056 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-10 21:29:15,061 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-10 21:29:18,537 INFO     Consumables data processed.
+2025-04-10 21:29:18,587 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-10 21:29:18,589 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-10 21:29:18,654 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.

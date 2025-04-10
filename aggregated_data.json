@@ -1,30 +1,46 @@
 {
     "PUMPS": [
         {
+            "Number": "1",
+            "Model": "BOMCO",
+            "Type": "TRIPLEX",
+            "HHP": "1600",
+            "Efficiency": "95",
+            "Stroke (in)": "12.000",
+            "Liner (in)": "475",
+            "P-Rating (psi)": "7500",
+            "P-Limit (psi)": "7100",
+            "SPM Rating": "120",
+            "SPM Limit": "110"
+        },
+        {
             "Number": "2",
             "Model": "BOMCO",
             "Type": "TRIPLEX",
-            "HHP": "12.000",
-            "Efficiency": "7500",
-            "Stroke (in)": "7100",
-            "Liner (in)": "",
-            "P-Rating (psi)": "",
-            "P-Limit (psi)": "",
-            "SPM Rating": "",
-            "SPM Limit": ""
+            "HHP": "1600",
+            "Efficiency": "95",
+            "Stroke (in)": "12.000",
+            "Liner (in)": "475",
+            "P-Rating (psi)": "7500",
+            "P-Limit (psi)": "7100",
+            "SPM Rating": "120",
+            "SPM Limit": "110"
+        },
+        {
+            "Number": "3",
+            "Model": "BOMCO",
+            "Type": "TRIPLEX",
+            "HHP": "1600",
+            "Efficiency": "95",
+            "Stroke (in)": "12.000",
+            "Liner (in)": "475",
+            "P-Rating (psi)": "7500",
+            "P-Limit (psi)": "7100",
+            "SPM Rating": "120",
+            "SPM Limit": "110"
         }
     ],
     "DrillingCircRates": [
-        {
-            "RateID": "",
-            "Pressure": "",
-            "SPM": "",
-            "Gal_Stroke": "",
-            "GPM": "",
-            "BPM": "",
-            "DC": "",
-            "DP": ""
-        },
         {
             "RateID": "1",
             "Pressure": "4325",
@@ -43,7 +59,7 @@
             "GPM": "351.76",
             "BPM": "8.38",
             "DC": "468.11",
-            "DP": ""
+            "DP": "340.61"
         }
     ]
 }
