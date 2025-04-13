@@ -2277,3 +2277,1839 @@ TypeError: 'NoneType' object is not callable
 2025-04-11 16:34:21,789 INFO     TIME BREAKDOWN: Merged 7 rows from two pages.
 2025-04-11 16:34:21,848 INFO     Section 'TIME BREAKDOWN' processed successfully.
 2025-04-11 16:34:21,909 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 16:38:52,257 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 16:38:52,278 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 16:38:52,280 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 16:38:52,281 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 16:38:53,568 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 16:38:53,571 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 16:38:53,627 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 16:38:53,628 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 16:38:53,630 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 16:38:53,631 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 16:39:02,803 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 16:39:02,878 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 16:39:02,880 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 16:39:02,881 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 16:39:02,883 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 16:39:08,316 INFO     MudPipeline: Processing complete.
+2025-04-11 16:39:08,364 INFO     Section 'MUD' processed successfully.
+2025-04-11 16:39:08,365 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 16:39:08,366 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 16:39:08,368 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 16:39:12,529 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 16:39:12,574 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 16:39:12,575 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 16:39:12,576 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 16:39:12,577 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 16:39:15,146 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 16:39:15,195 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 16:39:15,197 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 16:39:15,198 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 16:39:24,706 INFO     Drill Bits processed.
+2025-04-11 16:39:24,735 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 16:39:24,736 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 16:39:24,738 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 16:39:24,739 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 16:39:31,131 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 16:39:31,133 INFO     CasingPipeline: Processing complete.
+2025-04-11 16:39:31,175 INFO     Section 'CASING' processed successfully.
+2025-04-11 16:39:31,176 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 16:39:31,177 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 16:39:31,178 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 16:39:31,719 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 16:39:31,720 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 16:39:31,721 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 16:39:31,723 INFO     BOPPipeline: Processing complete.
+2025-04-11 16:39:31,767 INFO     Section 'BOP' processed successfully.
+2025-04-11 16:39:31,768 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 16:39:31,769 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 16:39:35,991 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 16:39:35,993 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 16:39:35,998 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 16:39:35,999 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 16:39:38,240 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 16:39:38,241 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 16:39:38,298 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 16:39:38,300 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 16:39:38,303 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 16:39:38,304 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 16:39:39,109 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 16:39:39,111 INFO     BHAPipeline: Processing complete.
+2025-04-11 16:39:39,151 INFO     Section 'BHA' processed successfully.
+2025-04-11 16:39:39,152 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 16:39:39,154 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 16:39:39,155 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 16:39:39,189 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 16:39:40,034 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 16:39:40,036 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 16:39:40,038 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 16:39:40,040 INFO     PumpsPipeline: Processing complete.
+2025-04-11 16:39:40,087 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 16:39:40,088 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 16:39:40,090 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 16:39:40,091 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 16:39:40,739 INFO     CostDataPipeline: Processing complete.
+2025-04-11 16:39:40,789 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 16:39:40,791 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 16:39:40,792 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 16:39:40,793 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 16:39:44,314 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 16:39:44,316 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 16:39:44,370 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 16:39:44,371 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 16:39:44,372 INFO     Processing section 'TIME BREAKDOWN' (special handling)...
+2025-04-11 16:39:44,373 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 16:39:44,375 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 16:39:44,376 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 16:39:59,973 INFO     TimeBreakdownPipeline: No Daily Summary found.
+2025-04-11 16:39:59,974 INFO     TimeBreakdownPipeline: Processing complete with 4 rows.
+2025-04-11 16:39:59,978 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 16:39:59,979 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 16:40:30,203 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 16:40:30,205 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 16:40:33,862 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 16:40:37,867 INFO     TimeBreakdownPipeline: Daily Summary found: Daily Hrs 24.00 Daily NPT Hrs Total Job NPT Hours 5.00
+2025-04-11 16:40:37,869 INFO     TimeBreakdownPipeline: Processing complete with 3 rows.
+2025-04-11 16:40:37,872 INFO     TIME BREAKDOWN: Merged 7 rows from two pages.
+2025-04-11 16:40:37,920 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 16:40:37,958 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 16:55:21,225 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 16:55:21,250 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 16:55:21,251 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 16:55:21,253 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 16:55:33,705 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 16:55:33,708 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 16:55:33,779 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 16:55:33,780 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 16:55:33,782 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 16:55:33,783 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 16:55:35,615 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 16:55:35,663 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 16:55:35,664 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 16:55:35,666 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 16:55:35,667 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 16:55:40,608 INFO     MudPipeline: Processing complete.
+2025-04-11 16:55:40,654 INFO     Section 'MUD' processed successfully.
+2025-04-11 16:55:40,656 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 16:55:40,657 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 16:55:40,658 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 16:55:44,974 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 16:55:45,015 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 16:55:45,017 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 16:55:45,018 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 16:55:45,019 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 16:55:47,542 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 16:55:47,585 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 16:55:47,586 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 16:55:47,587 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 16:55:55,906 INFO     Drill Bits processed.
+2025-04-11 16:55:55,935 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 16:55:55,937 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 16:55:55,938 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 16:55:55,939 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 16:56:01,682 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 16:56:01,684 INFO     CasingPipeline: Processing complete.
+2025-04-11 16:56:01,727 INFO     Section 'CASING' processed successfully.
+2025-04-11 16:56:01,728 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 16:56:01,729 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 16:56:01,730 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 16:56:02,181 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 16:56:02,182 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 16:56:02,183 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 16:56:02,185 INFO     BOPPipeline: Processing complete.
+2025-04-11 16:56:02,232 INFO     Section 'BOP' processed successfully.
+2025-04-11 16:56:02,233 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 16:56:02,234 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 16:56:06,334 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 16:56:06,335 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 16:56:06,336 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 16:56:06,337 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 16:56:08,411 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 16:56:08,412 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 16:56:08,455 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 16:56:08,456 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 16:56:08,457 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 16:56:08,458 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 16:56:09,264 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 16:56:09,266 INFO     BHAPipeline: Processing complete.
+2025-04-11 16:56:09,305 INFO     Section 'BHA' processed successfully.
+2025-04-11 16:56:09,306 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 16:56:09,308 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 16:56:09,309 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 16:56:09,342 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 16:56:10,401 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 16:56:10,403 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 16:56:10,405 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 16:56:10,407 INFO     PumpsPipeline: Processing complete.
+2025-04-11 16:56:10,450 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 16:56:10,451 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 16:56:10,453 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 16:56:10,454 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 16:56:10,971 INFO     CostDataPipeline: Processing complete.
+2025-04-11 16:56:11,011 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 16:56:11,013 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 16:56:11,014 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 16:56:11,015 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 16:56:14,477 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 16:56:14,479 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 16:56:14,523 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 16:56:14,525 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 16:56:14,526 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 16:56:14,527 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 16:56:14,528 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 16:56:27,839 INFO     TimeBreakdownPipeline: Processing complete with 4 rows.
+2025-04-11 16:56:27,844 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 16:56:27,845 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 16:57:00,333 INFO     TimeBreakdownPipeline: Processing complete with 2 rows.
+2025-04-11 16:57:00,337 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 16:57:00,390 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 16:57:00,429 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 17:02:18,189 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 17:02:18,218 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 17:02:18,219 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 17:02:18,220 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 17:02:30,206 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 17:02:30,208 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 17:02:30,258 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 17:02:30,260 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 17:02:30,261 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 17:02:30,262 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 17:02:32,045 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 17:02:32,093 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 17:02:32,094 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 17:02:32,095 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 17:02:32,096 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 17:02:37,031 INFO     MudPipeline: Processing complete.
+2025-04-11 17:02:37,076 INFO     Section 'MUD' processed successfully.
+2025-04-11 17:02:37,077 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 17:02:37,078 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 17:02:37,080 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 17:02:40,910 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 17:02:40,952 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 17:02:40,954 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 17:02:40,955 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 17:02:40,956 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 17:02:43,364 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 17:02:43,407 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 17:02:43,408 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 17:02:43,410 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 17:02:51,987 INFO     Drill Bits processed.
+2025-04-11 17:02:52,012 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 17:02:52,014 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 17:02:52,015 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 17:02:52,016 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 17:02:57,948 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 17:02:57,950 INFO     CasingPipeline: Processing complete.
+2025-04-11 17:02:57,992 INFO     Section 'CASING' processed successfully.
+2025-04-11 17:02:57,994 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 17:02:57,995 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 17:02:57,996 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 17:02:58,512 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 17:02:58,514 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 17:02:58,515 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 17:02:58,516 INFO     BOPPipeline: Processing complete.
+2025-04-11 17:02:58,552 INFO     Section 'BOP' processed successfully.
+2025-04-11 17:02:58,553 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 17:02:58,554 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 17:03:02,715 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 17:03:02,716 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 17:03:02,718 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 17:03:02,719 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 17:03:04,911 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 17:03:04,913 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 17:03:04,958 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 17:03:04,960 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 17:03:04,961 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 17:03:04,962 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 17:03:05,761 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 17:03:05,763 INFO     BHAPipeline: Processing complete.
+2025-04-11 17:03:05,802 INFO     Section 'BHA' processed successfully.
+2025-04-11 17:03:05,803 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 17:03:05,813 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 17:03:05,815 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 17:03:05,849 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 17:03:06,985 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 17:03:06,987 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 17:03:06,989 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 17:03:06,991 INFO     PumpsPipeline: Processing complete.
+2025-04-11 17:03:07,038 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 17:03:07,039 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 17:03:07,041 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 17:03:07,042 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 17:03:07,583 INFO     CostDataPipeline: Processing complete.
+2025-04-11 17:03:07,624 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 17:03:07,625 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 17:03:07,627 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 17:03:07,628 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 17:03:10,948 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 17:03:10,950 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 17:03:11,003 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 17:03:11,005 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 17:03:11,006 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 17:03:11,007 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 17:03:11,008 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 17:03:21,224 WARNING  Row has insufficient tokens: TIMEIBREAKDOWN : TIME|BREAKDOWN] }
+2025-04-11 17:03:21,225 WARNING  DR-Drilling marker not found in row: Time Period From To Hours From To Depth Phase Activity NPT Operations Description
+2025-04-11 17:03:24,099 INFO     TimeBreakdownPipeline: Processing complete with 5 detailed rows.
+2025-04-11 17:03:24,103 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 17:03:24,104 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 17:03:54,003 WARNING  DR-Drilling marker not found in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 17:03:54,005 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,006 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,007 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,009 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,010 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,011 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,012 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,013 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,013 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,014 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,015 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,016 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,017 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,018 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,019 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,020 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,021 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,022 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,023 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:54,024 WARNING  DR-Drilling marker not found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 17:03:57,949 INFO     TimeBreakdownPipeline: Processing complete with 1 detailed rows.
+2025-04-11 17:03:57,953 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 17:03:58,008 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 17:03:58,048 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 18:00:52,611 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 18:00:52,649 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 18:00:52,651 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 18:00:52,652 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 18:01:06,596 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 18:01:06,598 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 18:01:06,667 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 18:01:06,668 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 18:01:06,669 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 18:01:06,671 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 18:01:07,781 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 18:01:07,835 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 18:01:07,837 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 18:01:07,838 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 18:01:07,839 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 18:01:13,115 INFO     MudPipeline: Processing complete.
+2025-04-11 18:01:13,161 INFO     Section 'MUD' processed successfully.
+2025-04-11 18:01:13,163 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 18:01:13,164 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 18:01:13,165 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 18:01:17,240 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 18:01:17,309 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 18:01:17,310 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 18:01:17,311 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 18:01:17,312 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 18:01:19,679 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 18:01:19,726 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 18:01:19,728 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 18:01:19,729 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 18:01:27,972 INFO     Drill Bits processed.
+2025-04-11 18:01:28,001 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 18:01:28,002 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 18:01:28,004 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 18:01:28,005 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 18:01:33,858 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 18:01:33,861 INFO     CasingPipeline: Processing complete.
+2025-04-11 18:01:33,920 INFO     Section 'CASING' processed successfully.
+2025-04-11 18:01:33,922 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 18:01:33,923 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 18:01:33,924 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 18:01:34,530 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 18:01:34,532 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 18:01:34,533 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 18:01:34,534 INFO     BOPPipeline: Processing complete.
+2025-04-11 18:01:34,577 INFO     Section 'BOP' processed successfully.
+2025-04-11 18:01:34,578 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 18:01:34,579 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 18:01:39,048 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 18:01:39,049 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 18:01:39,051 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 18:01:39,052 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 18:01:41,110 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 18:01:41,111 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 18:01:41,163 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 18:01:41,164 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 18:01:41,167 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 18:01:41,169 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 18:01:41,959 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 18:01:41,961 INFO     BHAPipeline: Processing complete.
+2025-04-11 18:01:42,006 INFO     Section 'BHA' processed successfully.
+2025-04-11 18:01:42,007 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 18:01:42,008 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 18:01:42,009 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 18:01:42,043 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 18:01:43,165 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 18:01:43,167 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 18:01:43,169 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 18:01:43,171 INFO     PumpsPipeline: Processing complete.
+2025-04-11 18:01:43,222 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 18:01:43,224 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 18:01:43,225 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 18:01:43,226 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 18:01:43,768 INFO     CostDataPipeline: Processing complete.
+2025-04-11 18:01:43,839 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 18:01:43,840 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 18:01:43,841 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 18:01:43,842 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 18:01:47,160 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 18:01:47,162 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 18:01:47,208 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 18:01:47,210 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 18:01:47,211 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 18:01:47,212 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 18:01:47,213 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 18:01:57,959 WARNING  Row does not have enough tokens: TIMEIBREAKDOWN : TIME|BREAKDOWN] }
+2025-04-11 18:01:57,960 WARNING  No 'DR-Drilling' marker found in row: Time Period From To Hours From To Depth Phase Activity NPT Operations Description
+2025-04-11 18:02:00,568 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 18:02:00,573 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 18:02:00,574 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 18:02:29,851 WARNING  No 'DR-Drilling' marker found in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 18:02:29,852 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,853 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,854 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,856 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,857 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,858 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,859 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,860 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,861 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,862 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,863 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,865 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,866 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,867 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,868 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,869 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,870 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,871 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,872 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:29,873 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:02:33,864 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 18:02:33,868 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 18:02:33,936 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 18:02:34,012 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 18:34:18,960 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 18:34:18,996 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 18:34:18,998 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 18:34:31,665 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 18:34:31,668 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 18:34:31,720 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 18:34:31,721 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 18:34:31,722 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 18:34:34,124 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 18:34:34,171 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 18:34:34,173 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 18:34:34,174 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 18:34:39,166 INFO     MudPipeline: Processing complete.
+2025-04-11 18:34:39,207 INFO     Section 'MUD' processed successfully.
+2025-04-11 18:34:39,208 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 18:34:39,209 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 18:34:43,019 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 18:34:43,066 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 18:34:43,067 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 18:34:43,068 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 18:34:45,495 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 18:34:45,536 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 18:34:45,537 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 18:34:53,596 INFO     Drill Bits processed.
+2025-04-11 18:34:53,622 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 18:34:53,624 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 18:34:53,625 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 18:34:59,495 INFO     CasingPipeline: Processed 3 casing rows.
+2025-04-11 18:34:59,497 INFO     CasingPipeline: Processing complete.
+2025-04-11 18:34:59,545 INFO     Section 'CASING' processed successfully.
+2025-04-11 18:34:59,546 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 18:34:59,548 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 18:34:59,549 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 18:35:00,019 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 18:35:00,021 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 18:35:00,022 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 18:35:00,024 INFO     BOPPipeline: Processing complete.
+2025-04-11 18:35:00,060 INFO     Section 'BOP' processed successfully.
+2025-04-11 18:35:00,061 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 18:35:03,910 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 18:35:03,912 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 18:35:03,913 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 18:35:05,937 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 18:35:05,938 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 18:35:05,980 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 18:35:05,981 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 18:35:05,982 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 18:35:05,983 ERROR    Error processing section 'BHA': type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1484/command-7758511722928721-4016383857", line 98, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1484/command-5985821889076054-2639054180", line 69, in process
+    bha_json = BHAPipeline.extract_bha_data(image_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1484/command-5985821889076054-2639054180", line 6, in extract_bha_data
+    image = ImageUtils.safe_read_image_pil(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image'?
+2025-04-11 18:35:05,985 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 18:35:05,987 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 18:35:06,023 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 18:35:07,464 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 18:35:07,466 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 18:35:07,467 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 18:35:07,469 INFO     PumpsPipeline: Processing complete.
+2025-04-11 18:35:07,513 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 18:35:07,515 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 18:35:07,516 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 18:35:08,209 INFO     CostDataPipeline: Processing complete.
+2025-04-11 18:35:08,252 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 18:35:08,254 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 18:35:08,255 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 18:35:11,548 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 18:35:11,550 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 18:35:11,593 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 18:35:11,594 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 18:35:11,595 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 18:35:11,596 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 18:35:21,738 WARNING  Missing 'DR-Drilling' marker in row: Time Period Depth Phase Activity NPT Operations Description
+2025-04-11 18:35:21,739 WARNING  Insufficient tokens in row: From To Hours From To
+2025-04-11 18:35:24,890 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 18:35:24,895 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 18:35:54,142 WARNING  Missing 'DR-Drilling' marker in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 18:35:54,144 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,145 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,147 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,148 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,149 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,150 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,151 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,152 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,153 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,154 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,155 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,157 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,158 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,159 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,160 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,161 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,162 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,166 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,167 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:54,168 WARNING  Insufficient tokens in row: 
+2025-04-11 18:35:58,117 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 18:35:58,121 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 18:35:58,183 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 18:35:58,231 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 18:39:46,076 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 18:39:46,335 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 18:39:46,453 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 18:39:49,806 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 18:39:49,810 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 18:39:49,874 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 18:39:49,879 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 18:39:49,882 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 18:39:54,451 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 18:39:54,494 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 18:39:54,495 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 18:39:54,496 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 18:40:00,017 INFO     MudPipeline: Processing complete.
+2025-04-11 18:40:00,060 INFO     Section 'MUD' processed successfully.
+2025-04-11 18:40:00,061 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 18:40:00,063 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 18:40:04,177 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 18:40:04,222 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 18:40:04,224 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 18:40:04,225 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 18:40:07,001 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 18:40:07,054 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 18:40:07,056 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 18:40:15,322 INFO     Drill Bits processed.
+2025-04-11 18:40:15,347 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 18:40:15,349 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 18:40:15,352 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 18:40:21,676 INFO     CasingPipeline: Processed 3 casing rows.
+2025-04-11 18:40:21,678 INFO     CasingPipeline: Processing complete.
+2025-04-11 18:40:21,721 INFO     Section 'CASING' processed successfully.
+2025-04-11 18:40:21,723 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 18:40:21,724 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 18:40:21,725 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 18:40:22,162 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 18:40:22,164 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 18:40:22,165 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 18:40:22,167 INFO     BOPPipeline: Processing complete.
+2025-04-11 18:40:22,203 INFO     Section 'BOP' processed successfully.
+2025-04-11 18:40:22,205 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 18:40:26,260 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 18:40:26,262 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 18:40:26,263 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 18:40:28,524 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 18:40:28,526 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 18:40:28,568 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 18:40:28,569 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 18:40:28,572 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 18:40:28,573 ERROR    Error processing section 'BHA': type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1548/command-7758511722928721-4016383857", line 98, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1548/command-5985821889076054-2639054180", line 69, in process
+    bha_json = BHAPipeline.extract_bha_data(image_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1548/command-5985821889076054-2639054180", line 6, in extract_bha_data
+    image = ImageUtils.safe_read_image_pil(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image'?
+2025-04-11 18:40:28,576 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 18:40:28,577 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 18:40:28,614 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 18:40:29,397 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 18:40:29,399 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 18:40:29,400 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 18:40:29,409 INFO     PumpsPipeline: Processing complete.
+2025-04-11 18:40:29,447 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 18:40:29,449 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 18:40:29,450 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 18:40:30,133 INFO     CostDataPipeline: Processing complete.
+2025-04-11 18:40:30,186 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 18:40:30,188 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 18:40:30,190 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 18:40:33,697 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 18:40:33,699 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 18:40:33,742 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 18:40:33,744 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 18:40:33,746 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 18:40:33,747 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 18:40:44,574 WARNING  Missing 'DR-Drilling' marker in row: Time Period Depth Phase Activity NPT Operations Description
+2025-04-11 18:40:44,576 WARNING  Insufficient tokens in row: From To Hours From To
+2025-04-11 18:40:47,503 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 18:40:47,506 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 18:43:05,376 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 18:43:05,656 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 18:43:05,659 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 18:43:05,660 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 18:43:07,638 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 18:43:07,643 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 18:43:07,695 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 18:43:07,697 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 18:43:07,698 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 18:43:07,699 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 18:43:10,279 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 18:43:10,319 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 18:43:10,321 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 18:43:10,322 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 18:43:10,323 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 18:43:21,541 INFO     MudPipeline: Processing complete.
+2025-04-11 18:43:21,611 INFO     Section 'MUD' processed successfully.
+2025-04-11 18:43:21,612 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 18:43:21,613 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 18:43:21,615 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 18:43:25,719 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 18:43:25,760 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 18:43:25,761 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 18:43:25,763 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 18:43:25,765 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 18:43:28,322 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 18:43:28,371 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 18:43:28,373 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 18:43:28,375 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 18:43:37,226 INFO     Drill Bits processed.
+2025-04-11 18:43:37,255 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 18:43:37,258 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 18:43:37,259 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 18:43:37,261 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 18:43:43,375 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 18:43:43,378 INFO     CasingPipeline: Processing complete.
+2025-04-11 18:43:43,420 INFO     Section 'CASING' processed successfully.
+2025-04-11 18:43:43,422 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 18:43:43,423 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 18:43:43,425 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 18:43:44,017 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 18:43:44,019 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 18:43:44,020 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 18:43:44,022 INFO     BOPPipeline: Processing complete.
+2025-04-11 18:43:44,060 INFO     Section 'BOP' processed successfully.
+2025-04-11 18:43:44,062 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 18:43:44,064 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 18:43:48,181 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 18:43:48,183 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 18:43:48,184 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 18:43:48,186 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 18:43:50,318 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 18:43:50,319 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 18:43:50,360 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 18:43:50,361 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 18:43:50,362 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 18:43:50,364 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 18:43:51,396 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 18:43:51,398 INFO     BHAPipeline: Processing complete.
+2025-04-11 18:43:51,446 INFO     Section 'BHA' processed successfully.
+2025-04-11 18:43:51,447 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 18:43:51,448 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 18:43:51,450 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 18:43:51,490 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 18:43:52,557 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 18:43:52,559 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 18:43:52,561 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 18:43:52,563 INFO     PumpsPipeline: Processing complete.
+2025-04-11 18:43:52,609 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 18:43:52,610 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 18:43:52,615 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 18:43:52,616 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 18:43:53,177 INFO     CostDataPipeline: Processing complete.
+2025-04-11 18:43:53,216 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 18:43:53,218 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 18:43:53,219 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 18:43:53,221 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 18:43:56,831 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 18:43:56,832 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 18:43:56,877 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 18:43:56,879 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 18:43:56,882 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 18:43:56,883 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 18:43:56,885 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 18:44:07,556 WARNING  Row does not have enough tokens: TIMEIBREAKDOWN : TIME|BREAKDOWN] }
+2025-04-11 18:44:07,558 WARNING  No 'DR-Drilling' marker found in row: Time Period From To Hours From To Depth Phase Activity NPT Operations Description
+2025-04-11 18:44:10,728 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 18:44:10,731 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 18:44:10,732 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 18:44:40,604 WARNING  No 'DR-Drilling' marker found in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 18:44:40,606 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,607 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,609 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,610 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,611 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,612 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,616 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,617 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,620 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,623 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,625 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,626 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,627 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,628 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,629 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,630 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,631 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,632 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,634 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:40,635 WARNING  No 'DR-Drilling' marker found in row: [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK] [BLANK]
+2025-04-11 18:44:44,695 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 18:44:44,699 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 18:44:44,747 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 18:44:44,791 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 18:46:14,162 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 18:46:14,173 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 18:46:14,175 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 18:46:26,712 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 18:46:26,715 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 18:46:26,767 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 18:46:26,770 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 18:46:26,772 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 18:46:27,726 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 18:46:27,781 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 18:46:27,783 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 18:46:27,784 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 18:46:33,214 INFO     MudPipeline: Processing complete.
+2025-04-11 18:46:33,261 INFO     Section 'MUD' processed successfully.
+2025-04-11 18:46:33,263 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 18:46:33,265 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 18:46:37,189 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 18:46:37,230 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 18:46:37,231 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 18:46:37,233 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 18:46:39,897 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 18:46:39,941 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 18:46:39,943 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 18:46:48,236 INFO     Drill Bits processed.
+2025-04-11 18:46:48,263 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 18:46:48,264 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 18:46:48,265 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 18:46:56,208 INFO     CasingPipeline: Processed 3 casing rows.
+2025-04-11 18:46:56,210 INFO     CasingPipeline: Processing complete.
+2025-04-11 18:46:56,252 INFO     Section 'CASING' processed successfully.
+2025-04-11 18:46:56,254 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 18:46:56,255 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 18:46:56,257 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 18:46:57,146 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 18:46:57,147 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 18:46:57,150 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 18:46:57,152 INFO     BOPPipeline: Processing complete.
+2025-04-11 18:46:57,209 INFO     Section 'BOP' processed successfully.
+2025-04-11 18:46:57,211 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 18:47:01,216 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 18:47:01,217 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 18:47:01,219 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 18:47:03,580 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 18:47:03,581 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 18:47:03,623 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 18:47:03,625 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 18:47:03,626 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 18:47:03,627 ERROR    Error processing section 'BHA': type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1510/command-7758511722928721-4016383857", line 98, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 69, in process
+    bha_json = BHAPipeline.extract_bha_data(image_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 6, in extract_bha_data
+    image = ImageUtils.safe_read_image_pil(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image'?
+2025-04-11 18:47:03,629 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 18:47:03,631 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 18:47:03,671 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 18:47:04,544 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 18:47:04,545 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 18:47:04,546 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 18:47:04,551 INFO     PumpsPipeline: Processing complete.
+2025-04-11 18:47:04,593 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 18:47:04,594 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 18:47:04,595 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 18:47:05,205 INFO     CostDataPipeline: Processing complete.
+2025-04-11 18:47:05,247 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 18:47:05,248 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 18:47:05,250 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 18:47:08,741 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 18:47:08,743 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 18:47:08,786 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 18:47:08,787 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 18:47:08,789 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 18:47:08,790 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 18:47:19,307 WARNING  Missing 'DR-Drilling' marker in row: Time Period Depth Phase Activity NPT Operations Description
+2025-04-11 18:47:19,308 WARNING  Insufficient tokens in row: From To Hours From To
+2025-04-11 18:47:22,064 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 18:47:22,068 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 18:47:52,213 WARNING  Missing 'DR-Drilling' marker in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 18:47:52,215 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,216 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,217 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,221 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,222 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,224 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,225 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,227 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,228 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,229 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,230 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,231 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,232 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,233 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,235 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,240 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,241 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,242 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,243 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:52,244 WARNING  Insufficient tokens in row: 
+2025-04-11 18:47:56,397 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 18:47:56,400 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 18:47:56,446 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 18:47:56,492 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 19:40:50,340 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 19:40:50,351 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 19:40:50,353 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 19:41:03,098 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 19:41:03,100 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 19:41:03,147 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 19:41:03,149 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 19:41:03,150 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 19:41:04,225 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 19:41:04,271 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 19:41:04,272 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 19:41:04,273 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 19:41:09,448 INFO     MudPipeline: Processing complete.
+2025-04-11 19:41:09,493 INFO     Section 'MUD' processed successfully.
+2025-04-11 19:41:09,494 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 19:41:09,495 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 19:41:13,477 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 19:41:13,520 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 19:41:13,522 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 19:41:13,523 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 19:41:15,991 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 19:41:16,045 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 19:41:16,046 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 19:41:24,421 INFO     Drill Bits processed.
+2025-04-11 19:41:24,445 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 19:41:24,447 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 19:41:24,449 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 19:41:30,204 INFO     CasingPipeline: Processed 3 casing rows.
+2025-04-11 19:41:30,206 INFO     CasingPipeline: Processing complete.
+2025-04-11 19:41:30,268 INFO     Section 'CASING' processed successfully.
+2025-04-11 19:41:30,270 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 19:41:30,271 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 19:41:30,272 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 19:41:30,715 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 19:41:30,716 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 19:41:30,717 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 19:41:30,719 INFO     BOPPipeline: Processing complete.
+2025-04-11 19:41:30,756 INFO     Section 'BOP' processed successfully.
+2025-04-11 19:41:30,757 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 19:41:34,838 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 19:41:34,839 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 19:41:34,840 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 19:41:37,025 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 19:41:37,026 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 19:41:37,069 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 19:41:37,071 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 19:41:37,071 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 19:41:37,073 ERROR    Error processing section 'BHA': type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1510/command-7758511722928721-3171054232", line 98, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 69, in process
+    bha_json = BHAPipeline.extract_bha_data(image_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 6, in extract_bha_data
+    image = ImageUtils.safe_read_image_pil(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image'?
+2025-04-11 19:41:37,075 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 19:41:37,075 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 19:41:37,112 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 19:41:37,898 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 19:41:37,900 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 19:41:37,902 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 19:41:37,904 INFO     PumpsPipeline: Processing complete.
+2025-04-11 19:41:37,947 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 19:41:37,949 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 19:41:37,950 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 19:41:38,482 INFO     CostDataPipeline: Processing complete.
+2025-04-11 19:41:38,532 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 19:41:38,533 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 19:41:38,534 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 19:41:42,015 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 19:41:42,017 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 19:41:42,066 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 19:41:42,068 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 19:41:42,069 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 19:41:42,070 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 19:41:52,684 WARNING  Missing 'DR-Drilling' marker in row: Time Period Depth Phase Activity NPT Operations Description
+2025-04-11 19:41:52,685 WARNING  Insufficient tokens in row: From To Hours From To
+2025-04-11 19:41:56,228 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 19:41:56,231 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 19:42:25,592 WARNING  Missing 'DR-Drilling' marker in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 19:42:25,594 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,595 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,596 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,597 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,599 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,599 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,600 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,601 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,602 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,603 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,604 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,605 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,606 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,607 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,608 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,609 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,610 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,610 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,611 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:25,612 WARNING  Insufficient tokens in row: 
+2025-04-11 19:42:29,360 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 19:42:29,363 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 19:42:29,413 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 19:42:29,457 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 19:43:19,868 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 19:43:19,879 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 19:43:19,881 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 19:43:31,703 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 19:43:31,706 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 19:43:31,746 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 19:43:31,748 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 19:43:31,749 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 19:43:32,711 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 19:43:32,754 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 19:43:32,759 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 19:43:32,760 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 19:43:38,036 INFO     MudPipeline: Processing complete.
+2025-04-11 19:43:38,080 INFO     Section 'MUD' processed successfully.
+2025-04-11 19:43:38,081 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 19:43:38,082 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 19:43:42,019 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 19:43:42,061 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 19:43:42,063 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 19:43:42,064 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 19:43:44,583 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 19:43:44,628 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 19:43:44,630 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 19:43:52,628 INFO     Drill Bits processed.
+2025-04-11 19:43:52,654 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 19:43:52,656 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 19:43:52,657 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 19:43:58,894 INFO     CasingPipeline: Processed 3 casing rows.
+2025-04-11 19:43:58,896 INFO     CasingPipeline: Processing complete.
+2025-04-11 19:43:58,937 INFO     Section 'CASING' processed successfully.
+2025-04-11 19:43:58,938 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 19:43:58,939 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 19:43:58,940 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 19:43:59,332 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 19:43:59,333 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 19:43:59,334 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 19:43:59,336 INFO     BOPPipeline: Processing complete.
+2025-04-11 19:43:59,373 INFO     Section 'BOP' processed successfully.
+2025-04-11 19:43:59,374 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 19:44:03,569 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 19:44:03,571 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 19:44:03,571 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 19:44:05,534 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 19:44:05,535 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 19:44:05,579 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 19:44:05,581 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 19:44:05,582 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 19:44:05,583 ERROR    Error processing section 'BHA': type object 'ImageUtils' has no attribute 'safe_read_image_pil'
+Traceback (most recent call last):
+  File "/root/.ipykernel/1510/command-7758511722928721-3171054232", line 98, in main
+    data_json, df = func(img_path, debug=debug)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 69, in process
+    bha_json = BHAPipeline.extract_bha_data(image_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.ipykernel/1510/command-5985821889076054-2639054180", line 6, in extract_bha_data
+    image = ImageUtils.safe_read_image_pil(image_path)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'ImageUtils' has no attribute 'safe_read_image_pil'. Did you mean: 'safe_read_image'?
+2025-04-11 19:44:05,585 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 19:44:05,586 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 19:44:05,623 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 19:44:06,406 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 19:44:06,407 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 19:44:06,409 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 19:44:06,411 INFO     PumpsPipeline: Processing complete.
+2025-04-11 19:44:06,448 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 19:44:06,449 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 19:44:06,451 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 19:44:06,913 INFO     CostDataPipeline: Processing complete.
+2025-04-11 19:44:06,967 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 19:44:06,969 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 19:44:06,970 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 19:44:10,329 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 19:44:10,331 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 19:44:10,375 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 19:44:10,376 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 19:44:10,378 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 19:44:10,379 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 19:44:20,479 WARNING  Missing 'DR-Drilling' marker in row: Time Period Depth Phase Activity NPT Operations Description
+2025-04-11 19:44:20,481 WARNING  Insufficient tokens in row: From To Hours From To
+2025-04-11 19:44:23,460 INFO     TimeBreakdownPipeline: Processing complete with 5 rows.
+2025-04-11 19:44:23,463 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 19:44:53,042 WARNING  Missing 'DR-Drilling' marker in row: 04:00 04:30 0.50 20252 20252 Production Drilling - DR-Rig Service RIG SERVICE. Lateral ***GREASE WASH PIPE & BLOCKS. ***CHECK TOP DRIVE OIL & TOP OFF. ***PERFORM STATIC BRAKE TEST. ***SPR @ 20,252', CMW @ 11.5 PPG. ++ MP #2: 20 / 625 PSI, 30 / 755 PSI, 40 / 868 PSI.
+2025-04-11 19:44:53,043 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,045 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,046 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,047 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,049 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,050 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,051 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,052 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,053 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,054 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,055 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,056 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,057 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,058 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,059 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,061 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,062 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,063 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,064 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:53,065 WARNING  Insufficient tokens in row: 
+2025-04-11 19:44:57,582 INFO     TimeBreakdownPipeline: Processing complete with 1 rows.
+2025-04-11 19:44:57,585 INFO     TIME BREAKDOWN: Merged 6 rows from two pages.
+2025-04-11 19:44:57,638 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 19:44:57,682 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 19:46:57,689 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 19:46:57,697 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 19:46:57,698 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 19:46:57,700 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 19:47:10,795 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 19:47:10,798 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 19:47:10,843 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 19:47:10,845 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 19:47:10,846 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 19:47:10,848 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 19:47:11,748 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 19:47:11,787 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 19:47:11,789 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 19:47:11,790 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 19:47:11,791 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 19:47:16,870 INFO     MudPipeline: Processing complete.
+2025-04-11 19:47:16,911 INFO     Section 'MUD' processed successfully.
+2025-04-11 19:47:16,912 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 19:47:16,913 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 19:47:16,914 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 19:47:20,894 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 19:47:20,937 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 19:47:20,939 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 19:47:20,940 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 19:47:20,941 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 19:47:23,491 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 19:47:23,534 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 19:47:23,535 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 19:47:23,536 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 19:47:31,933 INFO     Drill Bits processed.
+2025-04-11 19:47:31,957 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 19:47:31,958 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 19:47:31,960 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 19:47:31,961 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 19:47:37,874 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 19:47:37,876 INFO     CasingPipeline: Processing complete.
+2025-04-11 19:47:37,920 INFO     Section 'CASING' processed successfully.
+2025-04-11 19:47:37,921 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 19:47:37,923 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 19:47:37,924 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 19:47:38,437 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 19:47:38,439 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 19:47:38,440 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 19:47:38,441 INFO     BOPPipeline: Processing complete.
+2025-04-11 19:47:38,480 INFO     Section 'BOP' processed successfully.
+2025-04-11 19:47:38,481 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 19:47:38,482 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 19:47:42,530 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 19:47:42,531 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 19:47:42,533 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 19:47:42,534 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 19:47:44,682 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 19:47:44,684 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 19:47:44,728 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 19:47:44,729 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 19:47:44,730 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 19:47:44,731 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 19:47:45,457 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 19:47:45,459 INFO     BHAPipeline: Processing complete.
+2025-04-11 19:47:45,498 INFO     Section 'BHA' processed successfully.
+2025-04-11 19:47:45,499 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 19:47:45,500 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 19:47:45,501 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 19:47:45,535 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 19:47:46,389 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 19:47:46,391 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 19:47:46,392 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 19:47:46,394 INFO     PumpsPipeline: Processing complete.
+2025-04-11 19:47:46,441 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 19:47:46,443 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 19:47:46,444 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 19:47:46,445 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 19:47:46,948 INFO     CostDataPipeline: Processing complete.
+2025-04-11 19:47:46,988 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 19:47:46,990 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 19:47:46,991 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 19:47:46,992 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 19:47:50,418 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 19:47:50,420 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 19:47:50,467 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 19:47:50,468 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 19:47:50,469 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 19:47:50,470 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 19:47:50,471 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 19:48:06,272 INFO     TimeBreakdownPipeline: No Daily Summary found.
+2025-04-11 19:48:06,274 INFO     TimeBreakdownPipeline: Processing complete with 4 rows.
+2025-04-11 19:48:06,276 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 19:48:06,277 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 19:48:35,808 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 19:48:35,810 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 19:48:39,715 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 19:48:43,187 INFO     TimeBreakdownPipeline: Daily Summary found: Daily Hrs 24.00 Daily NPT Hrs Total Job NPT Hours 5.00
+2025-04-11 19:48:43,189 INFO     TimeBreakdownPipeline: Processing complete with 3 rows.
+2025-04-11 19:48:43,192 INFO     TIME BREAKDOWN: Merged 7 rows from two pages.
+2025-04-11 19:48:43,241 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 19:48:43,278 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-11 20:25:05,297 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 20:25:05,311 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 20:25:05,313 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 20:25:05,314 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 20:25:18,501 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 20:25:18,503 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 20:25:18,555 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 20:25:18,556 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 20:25:18,557 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 20:25:18,559 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 20:25:19,405 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 20:25:19,445 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 20:25:19,446 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 20:25:19,447 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 20:25:19,449 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 20:25:24,567 INFO     MudPipeline: Processing complete.
+2025-04-11 20:25:24,614 INFO     Section 'MUD' processed successfully.
+2025-04-11 20:25:24,615 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 20:25:24,616 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 20:25:24,617 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 20:25:28,447 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 20:25:28,496 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 20:25:28,497 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 20:25:28,498 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 20:25:28,499 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 20:25:30,840 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 20:25:30,890 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 20:25:30,891 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 20:25:30,893 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 20:28:41,922 INFO     Main Pipeline: Starting main pipeline execution...
+2025-04-11 20:28:41,931 INFO     Processing section 'DAILY DRILLING REPORT' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png...
+2025-04-11 20:28:41,932 INFO     DailyDrillingReportPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png'.
+2025-04-11 20:28:41,933 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+2025-04-11 20:28:43,230 INFO     DailyDrillingReportPipeline: OCR extraction complete.
+2025-04-11 20:28:43,233 INFO     DailyDrillingReportPipeline: Processing complete.
+2025-04-11 20:28:43,273 INFO     Section 'DAILY DRILLING REPORT' processed successfully.
+2025-04-11 20:28:43,275 INFO     Processing section 'WELL/JOB INFORMATION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png...
+2025-04-11 20:28:43,281 INFO     WellJobInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png'.
+2025-04-11 20:28:43,283 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+2025-04-11 20:28:44,986 INFO     WellJobInfoPipeline: Processing complete.
+2025-04-11 20:28:45,028 INFO     Section 'WELL/JOB INFORMATION' processed successfully.
+2025-04-11 20:28:45,038 INFO     Processing section 'MUD' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png...
+2025-04-11 20:28:45,040 INFO     MudPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png'.
+2025-04-11 20:28:45,042 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+2025-04-11 20:28:50,290 INFO     MudPipeline: Processing complete.
+2025-04-11 20:28:50,335 INFO     Section 'MUD' processed successfully.
+2025-04-11 20:28:50,336 INFO     Processing section 'SURVEY DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png...
+2025-04-11 20:28:50,338 INFO     SurveyDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png'.
+2025-04-11 20:28:50,340 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+2025-04-11 20:28:54,772 INFO     SurveyDataPipeline: Processing complete with 4 records.
+2025-04-11 20:28:54,814 INFO     Section 'SURVEY DATA' processed successfully.
+2025-04-11 20:28:54,815 INFO     Processing section 'DIR INFO' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png...
+2025-04-11 20:28:54,817 INFO     DirInfoPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png'.
+2025-04-11 20:28:54,819 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+2025-04-11 20:28:57,483 INFO     DirInfoPipeline: Processing complete.
+2025-04-11 20:28:57,527 INFO     Section 'DIR INFO' processed successfully.
+2025-04-11 20:28:57,529 INFO     Processing section 'DRILL BITS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png...
+2025-04-11 20:28:57,530 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+2025-04-11 20:29:06,376 INFO     Drill Bits processed.
+2025-04-11 20:29:06,407 INFO     Section 'DRILL BITS' processed successfully.
+2025-04-11 20:29:06,408 INFO     Processing section 'CASING' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png...
+2025-04-11 20:29:06,410 INFO     CasingPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png'.
+2025-04-11 20:29:06,410 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+2025-04-11 20:29:12,251 INFO     CasingPipeline: Processed 4 casing rows.
+2025-04-11 20:29:12,253 INFO     CasingPipeline: Processing complete.
+2025-04-11 20:29:12,299 INFO     Section 'CASING' processed successfully.
+2025-04-11 20:29:12,301 INFO     Processing section 'BOP' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png...
+2025-04-11 20:29:12,302 INFO     BOPPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png'
+2025-04-11 20:29:12,304 INFO     BOP: Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+2025-04-11 20:29:12,759 INFO     BOPPipeline: Last BOP Test Date -> 6/30/24
+2025-04-11 20:29:12,761 INFO     BOPPipeline: Last BOP Drill -> 7/3/2024
+2025-04-11 20:29:12,763 INFO     BOPPipeline: Next BOP Test -> 7/25/24
+2025-04-11 20:29:12,765 INFO     BOPPipeline: Processing complete.
+2025-04-11 20:29:12,807 INFO     Section 'BOP' processed successfully.
+2025-04-11 20:29:12,809 INFO     Processing section 'PERSONNEL' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png...
+2025-04-11 20:29:12,810 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+2025-04-11 20:29:17,410 INFO     Section 'PERSONNEL' processed successfully.
+2025-04-11 20:29:17,411 INFO     Processing section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png...
+2025-04-11 20:29:17,413 INFO     ObsIntPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png'.
+2025-04-11 20:29:17,415 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+2025-04-11 20:29:19,432 INFO     ObsIntPipeline: Observation & Intervention data processed.
+2025-04-11 20:29:19,433 INFO     ObsIntPipeline: Processing complete.
+2025-04-11 20:29:19,484 INFO     Section 'DAILY NUMBERS: OBSERVATION & INTERVENTION' processed successfully.
+2025-04-11 20:29:19,485 INFO     Processing section 'BHA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png...
+2025-04-11 20:29:19,487 INFO     BHAPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png'.
+2025-04-11 20:29:19,488 INFO     Reading image with PIL from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+2025-04-11 20:29:20,379 INFO     BHAPipeline: BHA data extraction complete.
+2025-04-11 20:29:20,381 INFO     BHAPipeline: Processing complete.
+2025-04-11 20:29:20,430 INFO     Section 'BHA' processed successfully.
+2025-04-11 20:29:20,431 INFO     Processing section 'PUMPS' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png...
+2025-04-11 20:29:20,433 INFO     PumpsPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png'.
+2025-04-11 20:29:20,434 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+2025-04-11 20:29:20,469 INFO     PumpsPipeline: Performing OCR using PIL.
+2025-04-11 20:29:21,283 INFO     PumpsPipeline: OCR extraction complete. Text length: 509
+2025-04-11 20:29:21,286 INFO     PumpsPipeline: Extracted 3 pump rows.
+2025-04-11 20:29:21,287 INFO     PumpsPipeline: Extracted 2 drilling/circ rate rows.
+2025-04-11 20:29:21,289 INFO     PumpsPipeline: Processing complete.
+2025-04-11 20:29:21,333 INFO     Section 'PUMPS' processed successfully.
+2025-04-11 20:29:21,334 INFO     Processing section 'COST DATA' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png...
+2025-04-11 20:29:21,335 INFO     CostDataPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png'.
+2025-04-11 20:29:21,337 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+2025-04-11 20:29:21,868 INFO     CostDataPipeline: Processing complete.
+2025-04-11 20:29:21,908 INFO     Section 'COST DATA' processed successfully.
+2025-04-11 20:29:21,909 INFO     Processing section 'CONSUMABLES' from dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png...
+2025-04-11 20:29:21,910 INFO     ConsumablesPipeline: Processing started for image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png'.
+2025-04-11 20:29:21,911 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+2025-04-11 20:29:25,692 INFO     ConsumablesPipeline: Completed processing consumables.
+2025-04-11 20:29:25,696 INFO     ConsumablesPipeline: Processing complete.
+2025-04-11 20:29:25,746 INFO     Section 'CONSUMABLES' processed successfully.
+2025-04-11 20:29:25,748 INFO     Skipping section 'BIT INFO' — pipeline not implemented.
+2025-04-11 20:29:25,749 INFO     Processing TIME BREAKDOWN from two pages.
+2025-04-11 20:29:25,751 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png'.
+2025-04-11 20:29:25,753 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+2025-04-11 20:29:42,120 INFO     TimeBreakdownPipeline: No Daily Summary found.
+2025-04-11 20:29:42,122 INFO     TimeBreakdownPipeline: Processing complete with 4 rows.
+2025-04-11 20:29:42,124 INFO     TimeBreakdownPipeline: Processing image 'dbfs:/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png'.
+2025-04-11 20:29:42,125 INFO     Reading image from: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+2025-04-11 20:30:12,510 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 20:30:12,512 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 20:30:16,463 INFO     TimeBreakdownPipeline: Parsed daily summary row: {'Daily Summary': {'Daily Hrs': '24.00', 'Daily NPT Hrs': '', 'Total Job NPT Hours': '5.00'}}
+2025-04-11 20:30:20,367 INFO     TimeBreakdownPipeline: Daily Summary found: Daily Hrs 24.00 Daily NPT Hrs Total Job NPT Hours 5.00
+2025-04-11 20:30:20,368 INFO     TimeBreakdownPipeline: Processing complete with 3 rows.
+2025-04-11 20:30:20,372 INFO     TIME BREAKDOWN: Merged 7 rows from two pages.
+2025-04-11 20:30:20,427 INFO     Section 'TIME BREAKDOWN' processed successfully.
+2025-04-11 20:30:20,467 INFO     Aggregated results saved to /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.json and /dbfs/mnt/mini-proj-dd/final_results/aggregated_data.csv.
+2025-04-13 17:07:55,637 INFO     [BlueBoxProcessing] Starting main pipeline.
+2025-04-13 17:07:55,654 INFO     [BlueBoxProcessing] Converting PDF to images from path: /dbfs/mnt/mini-proj-dd/DDR.pdf with dpi=300
+2025-04-13 17:09:39,124 INFO     [BlueBoxProcessing] Starting main pipeline.
+2025-04-13 17:09:39,125 INFO     [BlueBoxProcessing] Converting PDF to images from path: /dbfs/mnt/mini-proj-dd/DDR.pdf with dpi=300
+2025-04-13 17:09:42,130 INFO     [BlueBoxProcessing] Converted PDF into 2 image pages.
+2025-04-13 17:09:42,134 INFO     [BlueBoxProcessing] 
+--- Processing Page 1 ---
+2025-04-13 17:09:42,135 INFO     [BlueBoxProcessing] Detecting small blue boxes in image.
+2025-04-13 17:12:18,286 INFO     [BlueBoxProcessing] Detection complete: 13 blue boxes detected.
+2025-04-13 17:12:18,297 INFO     [BlueBoxProcessing] Detected 13 blue boxes on Page 1.
+2025-04-13 17:12:18,434 INFO     [BlueBoxProcessing] Displaying bounding boxes on the page:
+2025-04-13 17:12:18,435 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,690 INFO     [BlueBoxProcessing] Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_blue_boxes.png
+
+2025-04-13 17:12:19,691 INFO     [BlueBoxProcessing] Filtering header boxes based on target height: 31 with tolerance: 5
+2025-04-13 17:12:19,693 INFO     [BlueBoxProcessing] Filtered header boxes: 13 found.
+2025-04-13 17:12:19,694 INFO     [BlueBoxProcessing] Filtered 13 header boxes on Page 1.
+2025-04-13 17:12:19,696 INFO     [BlueBoxProcessing] Cropping, displaying, and saving boxes with prefix: Header
+2025-04-13 17:12:19,722 INFO     [BlueBoxProcessing] Header Box 1 at (x=48, y=185, w=2459, h=31)
+2025-04-13 17:12:19,724 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,754 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_1.png
+
+2025-04-13 17:12:19,755 INFO     [BlueBoxProcessing] Header Box 2 at (x=48, y=494, w=2459, h=31)
+2025-04-13 17:12:19,757 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,783 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_2.png
+
+2025-04-13 17:12:19,784 INFO     [BlueBoxProcessing] Header Box 3 at (x=48, y=667, w=1298, h=31)
+2025-04-13 17:12:19,785 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,810 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_3.png
+
+2025-04-13 17:12:19,811 INFO     [BlueBoxProcessing] Header Box 4 at (x=1350, y=667, w=1157, h=31)
+2025-04-13 17:12:19,812 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,837 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_4.png
+
+2025-04-13 17:12:19,839 INFO     [BlueBoxProcessing] Header Box 5 at (x=48, y=908, w=2459, h=31)
+2025-04-13 17:12:19,840 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,865 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_5.png
+
+2025-04-13 17:12:19,867 INFO     [BlueBoxProcessing] Header Box 6 at (x=48, y=1081, w=2459, h=31)
+2025-04-13 17:12:19,868 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,903 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_6.png
+
+2025-04-13 17:12:19,904 INFO     [BlueBoxProcessing] Header Box 7 at (x=48, y=1322, w=2459, h=31)
+2025-04-13 17:12:19,906 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,941 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_7.png
+
+2025-04-13 17:12:19,942 INFO     [BlueBoxProcessing] Header Box 8 at (x=48, y=1393, w=1556, h=31)
+2025-04-13 17:12:19,944 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:19,971 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_8.png
+
+2025-04-13 17:12:19,973 INFO     [BlueBoxProcessing] Header Box 9 at (x=1608, y=1393, w=899, h=31)
+2025-04-13 17:12:19,974 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,007 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_9.png
+
+2025-04-13 17:12:20,009 INFO     [BlueBoxProcessing] Header Box 10 at (x=48, y=1634, w=2459, h=31)
+2025-04-13 17:12:20,010 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,046 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_10.png
+
+2025-04-13 17:12:20,047 INFO     [BlueBoxProcessing] Header Box 11 at (x=48, y=1809, w=2459, h=31)
+2025-04-13 17:12:20,049 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,075 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_11.png
+
+2025-04-13 17:12:20,077 INFO     [BlueBoxProcessing] Header Box 12 at (x=48, y=2085, w=2459, h=31)
+2025-04-13 17:12:20,078 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,107 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_12.png
+
+2025-04-13 17:12:20,109 INFO     [BlueBoxProcessing] Header Box 13 at (x=48, y=2190, w=2459, h=31)
+2025-04-13 17:12:20,110 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,136 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_13.png
+
+2025-04-13 17:12:20,137 INFO     [BlueBoxProcessing] Cropping sections from page based on header positions.
+2025-04-13 17:12:20,145 INFO     [BlueBoxProcessing] Cropped a total of 14 sections.
+2025-04-13 17:12:20,146 INFO     [BlueBoxProcessing] Cropped 14 sections from Page 1.
+2025-04-13 17:12:20,155 INFO     [BlueBoxProcessing] Section 1 coords: (0, 0, 2550, 185)
+2025-04-13 17:12:20,157 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,214 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+
+2025-04-13 17:12:20,215 INFO     [BlueBoxProcessing] Section 2 coords: (48, 185, 2550, 494)
+2025-04-13 17:12:20,217 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,308 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+
+2025-04-13 17:12:20,310 INFO     [BlueBoxProcessing] Section 3 coords: (48, 494, 2550, 667)
+2025-04-13 17:12:20,311 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,368 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+
+2025-04-13 17:12:20,369 INFO     [BlueBoxProcessing] Section 4 coords: (48, 667, 1350, 908)
+2025-04-13 17:12:20,370 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,420 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+
+2025-04-13 17:12:20,421 INFO     [BlueBoxProcessing] Section 5 coords: (1350, 667, 2550, 908)
+2025-04-13 17:12:20,422 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,467 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+
+2025-04-13 17:12:20,469 INFO     [BlueBoxProcessing] Section 6 coords: (48, 908, 2550, 1081)
+2025-04-13 17:12:20,470 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,533 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+
+2025-04-13 17:12:20,534 INFO     [BlueBoxProcessing] Section 7 coords: (48, 1081, 2550, 1322)
+2025-04-13 17:12:20,536 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,607 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+
+2025-04-13 17:12:20,609 INFO     [BlueBoxProcessing] Section 8 coords: (48, 1322, 2550, 1393)
+2025-04-13 17:12:20,610 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,645 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+
+2025-04-13 17:12:20,646 INFO     [BlueBoxProcessing] Section 9 coords: (48, 1393, 1608, 1634)
+2025-04-13 17:12:20,648 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,703 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+
+2025-04-13 17:12:20,705 INFO     [BlueBoxProcessing] Section 10 coords: (1608, 1393, 2550, 1634)
+2025-04-13 17:12:20,706 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,746 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+
+2025-04-13 17:12:20,748 INFO     [BlueBoxProcessing] Section 11 coords: (48, 1634, 2550, 1809)
+2025-04-13 17:12:20,749 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,814 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+
+2025-04-13 17:12:20,816 INFO     [BlueBoxProcessing] Section 12 coords: (48, 1809, 2550, 2085)
+2025-04-13 17:12:20,817 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,906 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+
+2025-04-13 17:12:20,907 INFO     [BlueBoxProcessing] Section 13 coords: (48, 2085, 2550, 2190)
+2025-04-13 17:12:20,908 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:20,954 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+
+2025-04-13 17:12:20,955 INFO     [BlueBoxProcessing] Section 14 coords: (48, 2190, 2550, 4200)
+2025-04-13 17:12:20,956 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:21,423 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+
+2025-04-13 17:12:21,424 INFO     [BlueBoxProcessing] 
+--- Processing Page 2 ---
+2025-04-13 17:12:21,425 INFO     [BlueBoxProcessing] Detecting small blue boxes in image.
+2025-04-13 17:12:53,825 INFO     [BlueBoxProcessing] Detection complete: 2 blue boxes detected.
+2025-04-13 17:12:53,835 INFO     [BlueBoxProcessing] Detected 2 blue boxes on Page 2.
+2025-04-13 17:12:53,946 INFO     [BlueBoxProcessing] Displaying bounding boxes on the page:
+2025-04-13 17:12:53,947 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:54,565 INFO     [BlueBoxProcessing] Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_blue_boxes.png
+
+2025-04-13 17:12:54,567 INFO     [BlueBoxProcessing] Filtering header boxes based on target height: 31 with tolerance: 5
+2025-04-13 17:12:54,568 INFO     [BlueBoxProcessing] Filtered header boxes: 2 found.
+2025-04-13 17:12:54,569 INFO     [BlueBoxProcessing] Filtered 2 header boxes on Page 2.
+2025-04-13 17:12:54,570 INFO     [BlueBoxProcessing] Cropping, displaying, and saving boxes with prefix: Header
+2025-04-13 17:12:54,579 INFO     [BlueBoxProcessing] Header Box 1 at (x=48, y=1474, w=2459, h=33)
+2025-04-13 17:12:54,581 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:54,607 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_1.png
+
+2025-04-13 17:12:54,609 INFO     [BlueBoxProcessing] Header Box 2 at (x=48, y=1683, w=2459, h=31)
+2025-04-13 17:12:54,610 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:54,641 INFO     [BlueBoxProcessing] Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_2.png
+
+2025-04-13 17:12:54,642 INFO     [BlueBoxProcessing] Cropping sections from page based on header positions.
+2025-04-13 17:12:54,651 INFO     [BlueBoxProcessing] Cropped a total of 3 sections.
+2025-04-13 17:12:54,654 INFO     [BlueBoxProcessing] Cropped 3 sections from Page 2.
+2025-04-13 17:12:54,663 INFO     [BlueBoxProcessing] Section 1 coords: (0, 0, 2550, 1474)
+2025-04-13 17:12:54,665 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:54,924 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+
+2025-04-13 17:12:54,925 INFO     [BlueBoxProcessing] Section 2 coords: (48, 1474, 2550, 1683)
+2025-04-13 17:12:54,926 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:54,986 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+
+2025-04-13 17:12:54,988 INFO     [BlueBoxProcessing] Section 3 coords: (48, 1683, 2550, 4200)
+2025-04-13 17:12:54,989 INFO     [BlueBoxProcessing] Displaying image in notebook. Title: 
+2025-04-13 17:12:55,285 INFO     [BlueBoxProcessing] Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_3.png
+
+2025-04-13 17:12:55,287 INFO     [BlueBoxProcessing] Main pipeline completed successfully.
+2025-04-13 17:18:08,635 INFO     [BlueBoxProcessing] main: Starting main pipeline for PDF processing.
+2025-04-13 17:18:08,636 INFO     [BlueBoxProcessing] convert_pdf_to_images: Converting PDF '/dbfs/mnt/mini-proj-dd/DDR.pdf' into images using DPI=300.
+2025-04-13 17:18:28,287 INFO     [BlueBoxProcessing] main: PDF converted into 2 image pages.
+2025-04-13 17:18:28,289 INFO     [BlueBoxProcessing] main: 
+--- Processing Page 1 ---
+2025-04-13 17:18:28,291 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Starting blue box detection.
+2025-04-13 17:21:05,485 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Detection complete with 13 valid blue boxes.
+2025-04-13 17:21:05,494 INFO     [BlueBoxProcessing] main: Detected 13 blue boxes on Page 1.
+2025-04-13 17:21:05,580 INFO     [BlueBoxProcessing] main: Displaying bounding boxes on the page:
+2025-04-13 17:21:05,581 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Detected Blue Boxes'.
+2025-04-13 17:21:06,627 INFO     [BlueBoxProcessing] main: Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_blue_boxes.png
+
+2025-04-13 17:21:06,628 INFO     [BlueBoxProcessing] filter_header_boxes: Filtering boxes to find header boxes with target height 31 ± 5.
+2025-04-13 17:21:06,629 INFO     [BlueBoxProcessing] filter_header_boxes: 13 header boxes found.
+2025-04-13 17:21:06,631 INFO     [BlueBoxProcessing] main: Filtered 13 header boxes on Page 1.
+2025-04-13 17:21:06,632 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Starting to crop, display, and save boxes with prefix 'Header'.
+2025-04-13 17:21:06,641 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 1 at (x=48, y=185, w=2459, h=31)
+2025-04-13 17:21:06,642 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 1'.
+2025-04-13 17:21:06,675 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_1.png
+
+2025-04-13 17:21:06,677 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 2 at (x=48, y=494, w=2459, h=31)
+2025-04-13 17:21:06,678 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 2'.
+2025-04-13 17:21:06,703 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_2.png
+
+2025-04-13 17:21:06,704 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 3 at (x=48, y=667, w=1298, h=31)
+2025-04-13 17:21:06,706 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 3'.
+2025-04-13 17:21:06,730 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_3.png
+
+2025-04-13 17:21:06,731 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 4 at (x=1350, y=667, w=1157, h=31)
+2025-04-13 17:21:06,733 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 4'.
+2025-04-13 17:21:06,755 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_4.png
+
+2025-04-13 17:21:06,757 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 5 at (x=48, y=908, w=2459, h=31)
+2025-04-13 17:21:06,758 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 5'.
+2025-04-13 17:21:06,783 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_5.png
+
+2025-04-13 17:21:06,785 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 6 at (x=48, y=1081, w=2459, h=31)
+2025-04-13 17:21:06,786 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 6'.
+2025-04-13 17:21:06,814 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_6.png
+
+2025-04-13 17:21:06,816 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 7 at (x=48, y=1322, w=2459, h=31)
+2025-04-13 17:21:06,816 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 7'.
+2025-04-13 17:21:06,841 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_7.png
+
+2025-04-13 17:21:06,842 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 8 at (x=48, y=1393, w=1556, h=31)
+2025-04-13 17:21:06,844 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 8'.
+2025-04-13 17:21:06,867 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_8.png
+
+2025-04-13 17:21:06,869 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 9 at (x=1608, y=1393, w=899, h=31)
+2025-04-13 17:21:06,870 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 9'.
+2025-04-13 17:21:06,893 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_9.png
+
+2025-04-13 17:21:06,895 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 10 at (x=48, y=1634, w=2459, h=31)
+2025-04-13 17:21:06,898 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 10'.
+2025-04-13 17:21:06,926 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_10.png
+
+2025-04-13 17:21:06,928 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 11 at (x=48, y=1809, w=2459, h=31)
+2025-04-13 17:21:06,929 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 11'.
+2025-04-13 17:21:06,954 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_11.png
+
+2025-04-13 17:21:06,956 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 12 at (x=48, y=2085, w=2459, h=31)
+2025-04-13 17:21:06,957 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 12'.
+2025-04-13 17:21:06,985 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_12.png
+
+2025-04-13 17:21:06,986 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 13 at (x=48, y=2190, w=2459, h=31)
+2025-04-13 17:21:06,987 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 13'.
+2025-04-13 17:21:07,016 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_13.png
+
+2025-04-13 17:21:07,017 INFO     [BlueBoxProcessing] crop_sections_by_headers: Starting to crop page into sections based on header positions.
+2025-04-13 17:21:07,026 INFO     [BlueBoxProcessing] crop_sections_by_headers: Cropped a total of 14 sections.
+2025-04-13 17:21:07,027 INFO     [BlueBoxProcessing] main: Cropped 14 sections from Page 1.
+2025-04-13 17:21:07,036 INFO     [BlueBoxProcessing] main: Section 1 coordinates: (0, 0, 2550, 185)
+2025-04-13 17:21:07,037 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 1'.
+2025-04-13 17:21:07,098 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+
+2025-04-13 17:21:07,099 INFO     [BlueBoxProcessing] main: Section 2 coordinates: (48, 185, 2550, 494)
+2025-04-13 17:21:07,101 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 2'.
+2025-04-13 17:21:07,195 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+
+2025-04-13 17:21:07,197 INFO     [BlueBoxProcessing] main: Section 3 coordinates: (48, 494, 2550, 667)
+2025-04-13 17:21:07,198 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 3'.
+2025-04-13 17:21:07,254 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+
+2025-04-13 17:21:07,256 INFO     [BlueBoxProcessing] main: Section 4 coordinates: (48, 667, 1350, 908)
+2025-04-13 17:21:07,257 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 4'.
+2025-04-13 17:21:07,306 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+
+2025-04-13 17:21:07,307 INFO     [BlueBoxProcessing] main: Section 5 coordinates: (1350, 667, 2550, 908)
+2025-04-13 17:21:07,309 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 5'.
+2025-04-13 17:21:07,354 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+
+2025-04-13 17:21:07,355 INFO     [BlueBoxProcessing] main: Section 6 coordinates: (48, 908, 2550, 1081)
+2025-04-13 17:21:07,357 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 6'.
+2025-04-13 17:21:07,416 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+
+2025-04-13 17:21:07,417 INFO     [BlueBoxProcessing] main: Section 7 coordinates: (48, 1081, 2550, 1322)
+2025-04-13 17:21:07,419 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 7'.
+2025-04-13 17:21:07,493 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+
+2025-04-13 17:21:07,494 INFO     [BlueBoxProcessing] main: Section 8 coordinates: (48, 1322, 2550, 1393)
+2025-04-13 17:21:07,495 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 8'.
+2025-04-13 17:21:07,529 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+
+2025-04-13 17:21:07,530 INFO     [BlueBoxProcessing] main: Section 9 coordinates: (48, 1393, 1608, 1634)
+2025-04-13 17:21:07,531 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 9'.
+2025-04-13 17:21:07,588 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+
+2025-04-13 17:21:07,590 INFO     [BlueBoxProcessing] main: Section 10 coordinates: (1608, 1393, 2550, 1634)
+2025-04-13 17:21:07,591 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 10'.
+2025-04-13 17:21:07,631 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+
+2025-04-13 17:21:07,632 INFO     [BlueBoxProcessing] main: Section 11 coordinates: (48, 1634, 2550, 1809)
+2025-04-13 17:21:07,633 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 11'.
+2025-04-13 17:21:07,700 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+
+2025-04-13 17:21:07,701 INFO     [BlueBoxProcessing] main: Section 12 coordinates: (48, 1809, 2550, 2085)
+2025-04-13 17:21:07,702 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 12'.
+2025-04-13 17:21:07,785 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+
+2025-04-13 17:21:07,787 INFO     [BlueBoxProcessing] main: Section 13 coordinates: (48, 2085, 2550, 2190)
+2025-04-13 17:21:07,788 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 13'.
+2025-04-13 17:21:07,833 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+
+2025-04-13 17:21:07,834 INFO     [BlueBoxProcessing] main: Section 14 coordinates: (48, 2190, 2550, 4200)
+2025-04-13 17:21:07,835 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 14'.
+2025-04-13 17:21:08,290 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+
+2025-04-13 17:21:08,291 INFO     [BlueBoxProcessing] main: 
+--- Processing Page 2 ---
+2025-04-13 17:21:08,293 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Starting blue box detection.
+2025-04-13 17:21:40,146 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Detection complete with 2 valid blue boxes.
+2025-04-13 17:21:40,156 INFO     [BlueBoxProcessing] main: Detected 2 blue boxes on Page 2.
+2025-04-13 17:21:40,276 INFO     [BlueBoxProcessing] main: Displaying bounding boxes on the page:
+2025-04-13 17:21:40,277 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Detected Blue Boxes'.
+2025-04-13 17:21:40,876 INFO     [BlueBoxProcessing] main: Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_blue_boxes.png
+
+2025-04-13 17:21:40,878 INFO     [BlueBoxProcessing] filter_header_boxes: Filtering boxes to find header boxes with target height 31 ± 5.
+2025-04-13 17:21:40,879 INFO     [BlueBoxProcessing] filter_header_boxes: 2 header boxes found.
+2025-04-13 17:21:40,881 INFO     [BlueBoxProcessing] main: Filtered 2 header boxes on Page 2.
+2025-04-13 17:21:40,883 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Starting to crop, display, and save boxes with prefix 'Header'.
+2025-04-13 17:21:40,893 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 1 at (x=48, y=1474, w=2459, h=33)
+2025-04-13 17:21:40,894 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 1'.
+2025-04-13 17:21:40,924 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_1.png
+
+2025-04-13 17:21:40,926 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 2 at (x=48, y=1683, w=2459, h=31)
+2025-04-13 17:21:40,927 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 2'.
+2025-04-13 17:21:40,954 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_2.png
+
+2025-04-13 17:21:40,957 INFO     [BlueBoxProcessing] crop_sections_by_headers: Starting to crop page into sections based on header positions.
+2025-04-13 17:21:40,966 INFO     [BlueBoxProcessing] crop_sections_by_headers: Cropped a total of 3 sections.
+2025-04-13 17:21:40,968 INFO     [BlueBoxProcessing] main: Cropped 3 sections from Page 2.
+2025-04-13 17:21:40,979 INFO     [BlueBoxProcessing] main: Section 1 coordinates: (0, 0, 2550, 1474)
+2025-04-13 17:21:40,980 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 1'.
+2025-04-13 17:21:41,244 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+
+2025-04-13 17:21:41,246 INFO     [BlueBoxProcessing] main: Section 2 coordinates: (48, 1474, 2550, 1683)
+2025-04-13 17:21:41,254 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 2'.
+2025-04-13 17:21:41,314 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+
+2025-04-13 17:21:41,316 INFO     [BlueBoxProcessing] main: Section 3 coordinates: (48, 1683, 2550, 4200)
+2025-04-13 17:21:41,317 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 3'.
+2025-04-13 17:21:41,609 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_3.png
+
+2025-04-13 17:21:41,610 INFO     [BlueBoxProcessing] main: Pipeline completed successfully. All pages processed.
+2025-04-13 17:31:51,879 INFO     [BlueBoxProcessing] main: Starting main pipeline for PDF processing.
+2025-04-13 17:31:51,880 INFO     [BlueBoxProcessing] convert_pdf_to_images: Converting PDF '/dbfs/mnt/mini-proj-dd/DDR.pdf' into images using DPI=300.
+2025-04-13 17:32:04,657 INFO     [BlueBoxProcessing] main: PDF converted into 2 image pages.
+2025-04-13 17:32:04,658 INFO     [BlueBoxProcessing] main: 
+--- Processing Page 1 ---
+2025-04-13 17:32:04,659 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Starting blue box detection.
+2025-04-13 17:33:05,657 INFO     [BlueBoxProcessing] main: Starting PDF processing pipeline.
+2025-04-13 17:33:05,725 INFO     [BlueBoxProcessing] convert_pdf_to_images: Converting PDF '/dbfs/mnt/mini-proj-dd/DDR.pdf' to images using DPI=300.
+2025-04-13 17:33:23,053 INFO     [BlueBoxProcessing] main: PDF converted into 2 image pages.
+2025-04-13 17:33:23,055 INFO     [BlueBoxProcessing] main: 
+--- Processing Page 1 ---
+2025-04-13 17:33:23,057 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Starting blue box detection.
+2025-04-13 17:34:46,954 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Detection complete with 13 valid blue boxes.
+2025-04-13 17:34:46,965 INFO     [BlueBoxProcessing] main: Detected 13 blue boxes on Page 1.
+2025-04-13 17:34:47,079 INFO     [BlueBoxProcessing] main: Displaying bounding boxes on the page:
+2025-04-13 17:34:47,080 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Detected Blue Boxes'.
+2025-04-13 17:34:48,129 INFO     [BlueBoxProcessing] main: Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_blue_boxes.png
+
+2025-04-13 17:34:48,130 INFO     [BlueBoxProcessing] filter_header_boxes: Filtering boxes to find header boxes with target height 31 ± 5.
+2025-04-13 17:34:48,131 INFO     [BlueBoxProcessing] filter_header_boxes: 13 header boxes found.
+2025-04-13 17:34:48,133 INFO     [BlueBoxProcessing] main: Filtered 13 header boxes on Page 1.
+2025-04-13 17:34:48,134 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Starting to crop, display, and save boxes with prefix 'Header'.
+2025-04-13 17:34:48,143 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 1 at (x=48, y=185, w=2459, h=31)
+2025-04-13 17:34:48,144 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 1'.
+2025-04-13 17:34:48,175 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_1.png
+
+2025-04-13 17:34:48,177 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 2 at (x=48, y=494, w=2459, h=31)
+2025-04-13 17:34:48,178 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 2'.
+2025-04-13 17:34:48,205 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_2.png
+
+2025-04-13 17:34:48,206 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 3 at (x=48, y=667, w=1298, h=31)
+2025-04-13 17:34:48,208 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 3'.
+2025-04-13 17:34:48,236 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_3.png
+
+2025-04-13 17:34:48,238 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 4 at (x=1350, y=667, w=1157, h=31)
+2025-04-13 17:34:48,240 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 4'.
+2025-04-13 17:34:48,266 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_4.png
+
+2025-04-13 17:34:48,268 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 5 at (x=48, y=908, w=2459, h=31)
+2025-04-13 17:34:48,270 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 5'.
+2025-04-13 17:34:48,295 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_5.png
+
+2025-04-13 17:34:48,297 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 6 at (x=48, y=1081, w=2459, h=31)
+2025-04-13 17:34:48,298 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 6'.
+2025-04-13 17:34:48,323 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_6.png
+
+2025-04-13 17:34:48,325 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 7 at (x=48, y=1322, w=2459, h=31)
+2025-04-13 17:34:48,326 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 7'.
+2025-04-13 17:34:48,352 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_7.png
+
+2025-04-13 17:34:48,355 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 8 at (x=48, y=1393, w=1556, h=31)
+2025-04-13 17:34:48,356 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 8'.
+2025-04-13 17:34:48,381 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_8.png
+
+2025-04-13 17:34:48,383 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 9 at (x=1608, y=1393, w=899, h=31)
+2025-04-13 17:34:48,385 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 9'.
+2025-04-13 17:34:48,412 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_9.png
+
+2025-04-13 17:34:48,414 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 10 at (x=48, y=1634, w=2459, h=31)
+2025-04-13 17:34:48,416 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 10'.
+2025-04-13 17:34:48,446 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_10.png
+
+2025-04-13 17:34:48,448 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 11 at (x=48, y=1809, w=2459, h=31)
+2025-04-13 17:34:48,450 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 11'.
+2025-04-13 17:34:48,477 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_11.png
+
+2025-04-13 17:34:48,479 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 12 at (x=48, y=2085, w=2459, h=31)
+2025-04-13 17:34:48,481 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 12'.
+2025-04-13 17:34:48,508 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_12.png
+
+2025-04-13 17:34:48,510 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 13 at (x=48, y=2190, w=2459, h=31)
+2025-04-13 17:34:48,511 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 13'.
+2025-04-13 17:34:48,537 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_13.png
+
+2025-04-13 17:34:48,539 INFO     [BlueBoxProcessing] crop_sections_by_headers: Starting to crop page into sections based on header positions.
+2025-04-13 17:34:48,548 INFO     [BlueBoxProcessing] crop_sections_by_headers: Cropped a total of 14 sections.
+2025-04-13 17:34:48,549 INFO     [BlueBoxProcessing] main: Cropped 14 sections from Page 1.
+2025-04-13 17:34:48,558 INFO     [BlueBoxProcessing] main: Section 1 coordinates: (0, 0, 2550, 185)
+2025-04-13 17:34:48,560 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 1'.
+2025-04-13 17:34:48,621 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_1.png
+
+2025-04-13 17:34:48,624 INFO     [BlueBoxProcessing] main: Section 2 coordinates: (48, 185, 2550, 494)
+2025-04-13 17:34:48,625 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 2'.
+2025-04-13 17:34:48,725 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_2.png
+
+2025-04-13 17:34:48,727 INFO     [BlueBoxProcessing] main: Section 3 coordinates: (48, 494, 2550, 667)
+2025-04-13 17:34:48,729 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 3'.
+2025-04-13 17:34:48,791 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_3.png
+
+2025-04-13 17:34:48,793 INFO     [BlueBoxProcessing] main: Section 4 coordinates: (48, 667, 1350, 908)
+2025-04-13 17:34:48,794 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 4'.
+2025-04-13 17:34:48,854 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_4.png
+
+2025-04-13 17:34:48,856 INFO     [BlueBoxProcessing] main: Section 5 coordinates: (1350, 667, 2550, 908)
+2025-04-13 17:34:48,858 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 5'.
+2025-04-13 17:34:48,910 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_5.png
+
+2025-04-13 17:34:48,912 INFO     [BlueBoxProcessing] main: Section 6 coordinates: (48, 908, 2550, 1081)
+2025-04-13 17:34:48,913 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 6'.
+2025-04-13 17:34:48,977 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_6.png
+
+2025-04-13 17:34:48,979 INFO     [BlueBoxProcessing] main: Section 7 coordinates: (48, 1081, 2550, 1322)
+2025-04-13 17:34:48,980 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 7'.
+2025-04-13 17:34:49,045 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_7.png
+
+2025-04-13 17:34:49,047 INFO     [BlueBoxProcessing] main: Section 8 coordinates: (48, 1322, 2550, 1393)
+2025-04-13 17:34:49,048 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 8'.
+2025-04-13 17:34:49,084 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_8.png
+
+2025-04-13 17:34:49,086 INFO     [BlueBoxProcessing] main: Section 9 coordinates: (48, 1393, 1608, 1634)
+2025-04-13 17:34:49,088 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 9'.
+2025-04-13 17:34:49,146 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_9.png
+
+2025-04-13 17:34:49,149 INFO     [BlueBoxProcessing] main: Section 10 coordinates: (1608, 1393, 2550, 1634)
+2025-04-13 17:34:49,150 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 10'.
+2025-04-13 17:34:49,207 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_10.png
+
+2025-04-13 17:34:49,208 INFO     [BlueBoxProcessing] main: Section 11 coordinates: (48, 1634, 2550, 1809)
+2025-04-13 17:34:49,209 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 11'.
+2025-04-13 17:34:49,276 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_11.png
+
+2025-04-13 17:34:49,278 INFO     [BlueBoxProcessing] main: Section 12 coordinates: (48, 1809, 2550, 2085)
+2025-04-13 17:34:49,279 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 12'.
+2025-04-13 17:34:49,366 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_12.png
+
+2025-04-13 17:34:49,367 INFO     [BlueBoxProcessing] main: Section 13 coordinates: (48, 2085, 2550, 2190)
+2025-04-13 17:34:49,369 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 13'.
+2025-04-13 17:34:49,413 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_13.png
+
+2025-04-13 17:34:49,415 INFO     [BlueBoxProcessing] main: Section 14 coordinates: (48, 2190, 2550, 4200)
+2025-04-13 17:34:49,416 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 14'.
+2025-04-13 17:34:49,895 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_1_section_14.png
+
+2025-04-13 17:34:49,897 INFO     [BlueBoxProcessing] main: 
+--- Processing Page 2 ---
+2025-04-13 17:34:49,899 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Starting blue box detection.
+2025-04-13 17:35:22,163 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Detection complete with 2 valid blue boxes.
+2025-04-13 17:35:22,174 INFO     [BlueBoxProcessing] main: Detected 2 blue boxes on Page 2.
+2025-04-13 17:35:22,286 INFO     [BlueBoxProcessing] main: Displaying bounding boxes on the page:
+2025-04-13 17:35:22,287 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Detected Blue Boxes'.
+2025-04-13 17:35:22,899 INFO     [BlueBoxProcessing] main: Saved blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_blue_boxes.png
+
+2025-04-13 17:35:22,901 INFO     [BlueBoxProcessing] filter_header_boxes: Filtering boxes to find header boxes with target height 31 ± 5.
+2025-04-13 17:35:22,902 INFO     [BlueBoxProcessing] filter_header_boxes: 2 header boxes found.
+2025-04-13 17:35:22,903 INFO     [BlueBoxProcessing] main: Filtered 2 header boxes on Page 2.
+2025-04-13 17:35:22,904 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Starting to crop, display, and save boxes with prefix 'Header'.
+2025-04-13 17:35:22,913 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 1 at (x=48, y=1474, w=2459, h=33)
+2025-04-13 17:35:22,914 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 1'.
+2025-04-13 17:35:22,944 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_1.png
+
+2025-04-13 17:35:22,945 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 2 at (x=48, y=1683, w=2459, h=31)
+2025-04-13 17:35:22,947 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Header Box 2'.
+2025-04-13 17:35:22,978 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_2_header_box_2.png
+
+2025-04-13 17:35:22,980 INFO     [BlueBoxProcessing] crop_sections_by_headers: Starting to crop page into sections based on header positions.
+2025-04-13 17:35:22,989 INFO     [BlueBoxProcessing] crop_sections_by_headers: Cropped a total of 3 sections.
+2025-04-13 17:35:22,991 INFO     [BlueBoxProcessing] main: Cropped 3 sections from Page 2.
+2025-04-13 17:35:23,001 INFO     [BlueBoxProcessing] main: Section 1 coordinates: (0, 0, 2550, 1474)
+2025-04-13 17:35:23,003 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 1'.
+2025-04-13 17:35:23,277 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_1.png
+
+2025-04-13 17:35:23,279 INFO     [BlueBoxProcessing] main: Section 2 coordinates: (48, 1474, 2550, 1683)
+2025-04-13 17:35:23,281 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 2'.
+2025-04-13 17:35:23,346 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_2.png
+
+2025-04-13 17:35:23,349 INFO     [BlueBoxProcessing] main: Section 3 coordinates: (48, 1683, 2550, 4200)
+2025-04-13 17:35:23,351 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image. Title: 'Section 3'.
+2025-04-13 17:35:23,662 INFO     [BlueBoxProcessing] main: Saved section image to: /dbfs/mnt/mini-proj-dd/cropped_sections/page_2_section_3.png
+
+2025-04-13 17:35:23,664 INFO     [BlueBoxProcessing] main: Pipeline completed successfully. All pages processed.
+2025-04-13 17:36:04,187 INFO     [BlueBoxProcessing] detect_small_blue_boxes: Completed detection; 13 blue boxes found.
+2025-04-13 17:36:04,198 INFO     [BlueBoxProcessing] main: Detected 13 blue boxes on Page 1.
+2025-04-13 17:36:04,315 INFO     [BlueBoxProcessing] main: Displaying debug image with detected blue boxes.
+2025-04-13 17:36:04,316 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Detected Blue Boxes'.
+2025-04-13 17:36:05,324 INFO     [BlueBoxProcessing] main: Saved debug blue boxes image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_blue_boxes.png
+
+2025-04-13 17:36:05,326 INFO     [BlueBoxProcessing] filter_header_boxes: Filtering boxes with target height 31 ± 5.
+2025-04-13 17:36:05,327 INFO     [BlueBoxProcessing] filter_header_boxes: 13 header boxes identified.
+2025-04-13 17:36:05,328 INFO     [BlueBoxProcessing] main: Filtered 13 header boxes on Page 1.
+2025-04-13 17:36:05,330 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Processing boxes with prefix 'Header'.
+2025-04-13 17:36:05,338 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 1: (x=48, y=185, w=2459, h=31)
+2025-04-13 17:36:05,339 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 1'.
+2025-04-13 17:36:05,366 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_1.png
+
+2025-04-13 17:36:05,368 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 2: (x=48, y=494, w=2459, h=31)
+2025-04-13 17:36:05,369 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 2'.
+2025-04-13 17:36:05,393 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_2.png
+
+2025-04-13 17:36:05,395 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 3: (x=48, y=667, w=1298, h=31)
+2025-04-13 17:36:05,397 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 3'.
+2025-04-13 17:36:05,419 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_3.png
+
+2025-04-13 17:36:05,421 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 4: (x=1350, y=667, w=1157, h=31)
+2025-04-13 17:36:05,422 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 4'.
+2025-04-13 17:36:05,444 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_4.png
+
+2025-04-13 17:36:05,446 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 5: (x=48, y=908, w=2459, h=31)
+2025-04-13 17:36:05,447 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 5'.
+2025-04-13 17:36:05,475 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_5.png
+
+2025-04-13 17:36:05,476 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 6: (x=48, y=1081, w=2459, h=31)
+2025-04-13 17:36:05,477 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 6'.
+2025-04-13 17:36:05,503 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_6.png
+
+2025-04-13 17:36:05,505 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 7: (x=48, y=1322, w=2459, h=31)
+2025-04-13 17:36:05,506 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 7'.
+2025-04-13 17:36:05,530 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_7.png
+
+2025-04-13 17:36:05,532 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 8: (x=48, y=1393, w=1556, h=31)
+2025-04-13 17:36:05,533 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 8'.
+2025-04-13 17:36:05,559 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_8.png
+
+2025-04-13 17:36:05,560 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 9: (x=1608, y=1393, w=899, h=31)
+2025-04-13 17:36:05,562 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 9'.
+2025-04-13 17:36:05,585 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_9.png
+
+2025-04-13 17:36:05,586 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 10: (x=48, y=1634, w=2459, h=31)
+2025-04-13 17:36:05,587 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 10'.
+2025-04-13 17:36:05,612 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_10.png
+
+2025-04-13 17:36:05,613 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 11: (x=48, y=1809, w=2459, h=31)
+2025-04-13 17:36:05,615 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 11'.
+2025-04-13 17:36:05,641 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_11.png
+
+2025-04-13 17:36:05,643 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 12: (x=48, y=2085, w=2459, h=31)
+2025-04-13 17:36:05,644 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 12'.
+2025-04-13 17:36:05,672 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_12.png
+
+2025-04-13 17:36:05,674 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Header Box 13: (x=48, y=2190, w=2459, h=31)
+2025-04-13 17:36:05,675 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Header Box 13'.
+2025-04-13 17:36:05,701 INFO     [BlueBoxProcessing] crop_and_display_save_boxes: Saved Header cropped image to: /dbfs/mnt/mini-proj-dd/cropped_blue_boxes/page_1_header_box_13.png
+
+2025-04-13 17:36:05,702 INFO     [BlueBoxProcessing] crop_sections_by_headers: Cropping page into sections based on header positions.
+2025-04-13 17:36:05,710 INFO     [BlueBoxProcessing] crop_sections_by_headers: Section widths: [2550, 2502, 2502, 1302, 1200, 2502, 2502, 2502, 1560, 942, 2502, 2502, 2502, 2502]
+2025-04-13 17:36:05,711 WARNING  [BlueBoxProcessing] crop_sections_by_headers: Section widths vary, which may indicate minor detection differences.
+2025-04-13 17:36:05,712 INFO     [BlueBoxProcessing] main: Cropped 14 sections from Page 1.
+2025-04-13 17:36:05,713 INFO     [BlueBoxProcessing] main: Section 1 coordinates: (left=0, top=0, right=2550, bottom=185) | Width: 2550, Height: 185
+2025-04-13 17:36:05,714 INFO     [BlueBoxProcessing] show_image_in_notebook: Displaying image with title 'Section 1'.
+2025-04-13 17:45:26,826 INFO     [BlueBoxProcessing] main: Starting PDF processing pipeline.
+2025-04-13 17:45:26,827 INFO     [BlueBoxProcessing] convert_pdf_to_images: Converting PDF '/dbfs/mnt/mini-proj-dd/DDR.pdf' to images using DPI=300.
