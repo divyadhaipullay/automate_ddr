@@ -1,0 +1,49 @@
+2025-04-21 23:33:00,516 | INFO | PDFExtractor | Logging initialized successfully
+2025-04-21 23:33:00,520 | INFO | PDFExtractor | Initializing ContractExtractor
+2025-04-21 23:33:00,525 | INFO | PDFExtractor | OCRProcessor initialized successfully
+2025-04-21 23:33:00,528 | INFO | PDFExtractor | InformationExtractor initialized with model: llama2
+2025-04-21 23:33:00,535 | WARNING | PDFExtractor | Ollama library not available. Using regex-based extraction as fallback.
+2025-04-21 23:33:00,733 | INFO | PDFExtractor | DataManager initialized with output directory: ./output
+2025-04-21 23:33:00,737 | INFO | PDFExtractor | ContractExtractor initialized successfully
+2025-04-21 23:33:00,741 | INFO | PDFExtractor | Starting PDF processing from mini-proj-dd/contract_docs/
+2025-04-21 23:33:00,744 | INFO | PDFExtractor | Step 1: Downloading PDFs from blob storage
+2025-04-21 23:33:00,747 | INFO | PDFExtractor | Step 2: Processing 5 PDF files
+2025-04-21 23:33:00,752 | INFO | PDFExtractor | Processing PDF: 1.pdf
+2025-04-21 23:33:00,755 | INFO | PDFExtractor | Step 1: Converting PDF to images
+2025-04-21 23:33:00,758 | ERROR | PDFExtractor | Error processing PDF 1.pdf: 'ContractExtractor' object has no attribute 'pdf_processor'
+2025-04-21 23:33:00,762 | INFO | PDFExtractor | Processing PDF: 2.pdf
+2025-04-21 23:33:00,765 | INFO | PDFExtractor | Step 1: Converting PDF to images
+2025-04-21 23:33:00,768 | ERROR | PDFExtractor | Error processing PDF 2.pdf: 'ContractExtractor' object has no attribute 'pdf_processor'
+2025-04-21 23:33:00,770 | INFO | PDFExtractor | Processing PDF: 3.pdf
+2025-04-21 23:33:00,775 | INFO | PDFExtractor | Step 1: Converting PDF to images
+2025-04-21 23:33:00,783 | ERROR | PDFExtractor | Error processing PDF 3.pdf: 'ContractExtractor' object has no attribute 'pdf_processor'
+2025-04-21 23:33:00,787 | INFO | PDFExtractor | Processing PDF: 4.pdf
+2025-04-21 23:33:00,791 | INFO | PDFExtractor | Step 1: Converting PDF to images
+2025-04-21 23:33:00,794 | ERROR | PDFExtractor | Error processing PDF 4.pdf: 'ContractExtractor' object has no attribute 'pdf_processor'
+2025-04-21 23:33:00,797 | INFO | PDFExtractor | Processing PDF: 5.pdf
+2025-04-21 23:33:00,800 | INFO | PDFExtractor | Step 1: Converting PDF to images
+2025-04-21 23:33:00,803 | ERROR | PDFExtractor | Error processing PDF 5.pdf: 'ContractExtractor' object has no attribute 'pdf_processor'
+2025-04-21 23:33:00,806 | INFO | PDFExtractor | Step 3: Exporting results
+2025-04-21 23:33:00,810 | INFO | PDFExtractor | Exporting data to JSON: ./output/extraction_results.json
+2025-04-21 23:33:01,396 | INFO | PDFExtractor | Successfully exported 0 records to ./output/extraction_results.json
+2025-04-21 23:33:01,401 | INFO | PDFExtractor | Exporting data to CSV: ./output/extraction_results.csv
+2025-04-21 23:33:01,961 | INFO | PDFExtractor | Successfully exported 0 records to ./output/extraction_results.csv
+2025-04-21 23:33:01,966 | INFO | PDFExtractor | Step 4: Calculating metrics
+2025-04-21 23:33:01,973 | INFO | PDFExtractor | Calculating extraction metrics
+2025-04-21 23:33:02,490 | INFO | PDFExtractor | PDF processing completed. Results exported to ./output/extraction_results.json, ./output/extraction_results.csv
+2025-04-21 23:33:02,496 | INFO | PDFExtractor | Metrics saved to ./output/extraction_metrics.json
+2025-04-21 23:33:02,709 | INFO | PDFExtractor | Logging initialized successfully
+2025-04-21 23:33:03,464 | INFO | PDFExtractor | Initializing ContractExtractor
+2025-04-21 23:34:30,639 | INFO | PDFExtractor | Logging initialized successfully
+2025-04-21 23:34:46,756 | INFO | PDFExtractor | Logging initialized successfully
+2025-04-21 23:34:46,773 | INFO | PDFExtractor | OCRProcessor initialized successfully
+2025-04-21 23:34:46,784 | INFO | PDFExtractor | InformationExtractor initialized with model: llama2
+2025-04-21 23:34:46,795 | WARNING | PDFExtractor | Ollama library not available. Using regex-based extraction as fallback.
+2025-04-21 23:34:46,992 | INFO | PDFExtractor | DataManager initialized with output directory: ./output
+2025-04-21 23:34:47,014 | INFO | PDFExtractor | Found 0 PDF files in ./closed_deal_sheets
+2025-04-21 23:34:47,020 | INFO | PDFExtractor | Exporting data to JSON: ./output/extraction_results.json
+2025-04-21 23:34:47,442 | INFO | PDFExtractor | Successfully exported 0 records to ./output/extraction_results.json
+2025-04-21 23:34:47,449 | INFO | PDFExtractor | Exporting data to CSV: ./output/extraction_results.csv
+2025-04-21 23:34:47,739 | INFO | PDFExtractor | Successfully exported 0 records to ./output/extraction_results.csv
+2025-04-21 23:34:47,749 | INFO | PDFExtractor | Calculating extraction metrics
+2025-04-21 23:34:48,304 | INFO | PDFExtractor | Extraction complete! JSON: ./output/extraction_results.json, CSV: ./output/extraction_results.csv, Metrics: ./output/extraction_metrics.json
